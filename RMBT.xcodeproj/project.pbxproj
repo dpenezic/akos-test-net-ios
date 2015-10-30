@@ -1,0 +1,1839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		331927E01A6E882C004D88B6 /* RMBTPUHardwareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331927DF1A6E882C004D88B6 /* RMBTPUHardwareView.swift */; };
+		331927E41A6EB681004D88B6 /* RMBTPUProtocolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331927E31A6EB681004D88B6 /* RMBTPUProtocolView.swift */; };
+		331927EA1A6FCE99004D88B6 /* RMBTPUTrafficView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331927E91A6FCE99004D88B6 /* RMBTPUTrafficView.swift */; };
+		331927EF1A6FD07F004D88B6 /* RMBTPULocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331927EE1A6FD07F004D88B6 /* RMBTPULocationView.swift */; };
+		331927F31A6FD5CC004D88B6 /* RMBTPopupContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331927F21A6FD5CC004D88B6 /* RMBTPopupContentView.swift */; };
+		33220F081A6D4453009FED5D /* RMBTHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33220F071A6D4453009FED5D /* RMBTHelpViewController.swift */; };
+		33391C631A77D36C00CDF415 /* RMBTHistoryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33391C611A77D36C00CDF415 /* RMBTHistoryItemCell.swift */; };
+		334A0D381A80C4820091B983 /* RMBTTesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334A0D371A80C4820091B983 /* RMBTTesterViewController.swift */; };
+		3356DE721A8A0E44007A0CC9 /* RMBTQoS_Menu_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356DE711A8A0E44007A0CC9 /* RMBTQoS_Menu_TableViewCell.swift */; };
+		3356E2CF1A8E2A7D005EBE25 /* RMBTQoSDetailsTestParamsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3356E2CE1A8E2A7D005EBE25 /* RMBTQoSDetailsTestParamsTVCell.swift */; };
+		336802731A66760A001081EF /* RMBTConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336802721A66760A001081EF /* RMBTConfig.swift */; };
+		336802A71A67B43F001081EF /* RMBTSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336802791A66C159001081EF /* RMBTSideMenuController.swift */; };
+		336802A81A67B441001081EF /* RMBTInitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3368027B1A66C1C1001081EF /* RMBTInitialViewController.swift */; };
+		336802BD1A67C20F001081EF /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336802BC1A67C20F001081EF /* SWRevealViewController.m */; };
+		3377EC3D1A8B570B00A4C937 /* RMBTQoSDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377EC3C1A8B570B00A4C937 /* RMBTQoSDetailVC.swift */; };
+		3377EC3F1A8B587D00A4C937 /* RMBTQoSTestDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377EC3E1A8B587D00A4C937 /* RMBTQoSTestDetailVC.swift */; };
+		337C93F31A695F7D002F438E /* RMBTPopupViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337C93F21A695F7D002F438E /* RMBTPopupViewButton.swift */; };
+		338B977A1AA0733900AADE67 /* RMBT_ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B97791AA0733900AADE67 /* RMBT_ProgressView.swift */; };
+		33AD9A1F1A70FCE600E2FFEA /* RMBTPUTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AD9A1D1A70FCE600E2FFEA /* RMBTPUTableViewCell.swift */; };
+		33C43D741A84C8BE00716A72 /* RMBTQoSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C43D731A84C8BE00716A72 /* RMBTQoSViewController.swift */; };
+		33C43D761A84CD5300716A72 /* RMBTQoS_Result_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C43D751A84CD5300716A72 /* RMBTQoS_Result_TableViewCell.swift */; };
+		33CE7DF51A7A206D0091B09D /* RMBTTestTableViewCell_M.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE7DF41A7A206D0091B09D /* RMBTTestTableViewCell_M.swift */; };
+		33CE7DF71A7A20A70091B09D /* RMBTTestTableViewCell_H.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE7DF61A7A20A70091B09D /* RMBTTestTableViewCell_H.swift */; };
+		33CE7DF91A7A3D180091B09D /* RMBTTestTableViewCell_Q.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CE7DF81A7A3D180091B09D /* RMBTTestTableViewCell_Q.swift */; };
+		B10536781ABC8F2C008DC77A /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10536771ABC8F2C008DC77A /* UIColor+Hex.swift */; };
+		B108FE831AD7F41B007582F9 /* RMBTPULocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06955CA1AC3F3CD000A2C8D /* RMBTPULocationView.xib */; };
+		B108FE841AD7F41B007582F9 /* RMBTPUHardwareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05AD2361AD5214900867B4E /* RMBTPUHardwareView.xib */; };
+		B108FE881AD7F663007582F9 /* RMBTPUTrafficView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B108FE861AD7F663007582F9 /* RMBTPUTrafficView.xib */; };
+		B114A4501A7A00AC008F6EF9 /* QOSDNSTestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B114A44F1A7A00AC008F6EF9 /* QOSDNSTestExecutor.swift */; };
+		B114A4541A7A02BD008F6EF9 /* QOSUDPTestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B114A4531A7A02BD008F6EF9 /* QOSUDPTestExecutor.swift */; };
+		B114A4581A7A0441008F6EF9 /* QOSVOIPTestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B114A4571A7A0441008F6EF9 /* QOSVOIPTestExecutor.swift */; };
+		B11D9B121A6978C7009C2279 /* QualityOfServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11D9B111A6978C7009C2279 /* QualityOfServiceTest.swift */; };
+		B11D9B141A6978EC009C2279 /* QualityOfServiceTestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11D9B131A6978EC009C2279 /* QualityOfServiceTestDelegate.swift */; };
+		B14959821A8944A60085539C /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14959811A8944A60085539C /* GCDTimer.swift */; };
+		B15E34441AC7248300DCF268 /* RMBTTestParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDBF1AC5B48000EBB656 /* RMBTTestParams.swift */; };
+		B15E34461AC72DB900DCF268 /* RMBTPing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15E34451AC72DB900DCF268 /* RMBTPing.swift */; };
+		B18309CD1AC9B9700087407E /* RMBTMapSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18309CC1AC9B9700087407E /* RMBTMapSubViewController.swift */; };
+		B18309CE1AC9D09B0087407E /* RMBTMapOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0207CED19CC5F470045824C /* RMBTMapOptionsViewController.swift */; };
+		B18309CF1AC9D8950087407E /* RMBTMapOptionsFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F1CD6419D02B9700F63937 /* RMBTMapOptionsFilterViewController.swift */; };
+		B19AFDB01ACAFBFA000E51DF /* RMBTThroughputHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19AFDAF1ACAFBF9000E51DF /* RMBTThroughputHistory.swift */; };
+		B19AFDB31ACB0A24000E51DF /* RMBTStatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3306250E1A84A04A009A49E2 /* RMBTStatisticsViewController.swift */; };
+		B1C9CC2E1AC883F0004E6ACD /* RMBTThroughput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C9CC2D1AC883F0004E6ACD /* RMBTThroughput.swift */; };
+		C573F2B1175294A500C728FC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C573F2B0175294A500C728FC /* CoreLocation.framework */; };
+		C59D7B471764E6CF003E9702 /* RMBTHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = C59D7B461764E6CF003E9702 /* RMBTHelpers.m */; };
+		C5DEB476176364B100187C94 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB475176364B100187C94 /* AVFoundation.framework */; };
+		C5DEB478176364BC00187C94 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB477176364BC00187C94 /* CoreData.framework */; };
+		C5DEB47A176364C300187C94 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB479176364C300187C94 /* CoreText.framework */; };
+		C5DEB47C176364C900187C94 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB47B176364C900187C94 /* GLKit.framework */; };
+		C5DEB47E176364CE00187C94 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB47D176364CE00187C94 /* ImageIO.framework */; };
+		C5DEB480176364D500187C94 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB47F176364D500187C94 /* libc++.dylib */; };
+		C5DEB482176364D900187C94 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB481176364D900187C94 /* libicucore.dylib */; };
+		C5DEB484176364DF00187C94 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB483176364DF00187C94 /* libz.dylib */; };
+		C5DEB486176364E400187C94 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DEB485176364E400187C94 /* OpenGLES.framework */; };
+		C73E792717673EBE0009855E /* RMBTSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E792617673EBE0009855E /* RMBTSettings.m */; };
+		C73E792A176761630009855E /* RMBTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E7929176761630009855E /* RMBTSettingsViewController.m */; };
+		C774EE7717920C9C00D623A3 /* RMBTConnectivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C774EE7617920C9C00D623A3 /* RMBTConnectivity.m */; };
+		C779E9E917403364003874AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C779E9E817403364003874AB /* QuartzCore.framework */; };
+		C7916EB7173EB65F00B40152 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7916EB6173EB65F00B40152 /* SystemConfiguration.framework */; };
+		C7916EB9173EB68200B40152 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7916EB8173EB68200B40152 /* MobileCoreServices.framework */; };
+		C7978FD717F1D07100BF986C /* RMBTConnectivityTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = C7978FD617F1D07100BF986C /* RMBTConnectivityTracker.m */; };
+		C7DE147C173E8F610079477A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DE147B173E8F610079477A /* UIKit.framework */; };
+		C7DE147E173E8F610079477A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DE147D173E8F610079477A /* Foundation.framework */; };
+		C7DE1480173E8F610079477A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DE147F173E8F610079477A /* CoreGraphics.framework */; };
+		C7EBA1A8173FE4A50055F578 /* RMBTTestWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EBA1A7173FE4A40055F578 /* RMBTTestWorker.m */; };
+		C7ECD90F174DB042000DF966 /* RMBTTestRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECD90E174DB042000DF966 /* RMBTTestRunner.m */; };
+		C7F08F6A1769F37700741844 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F08F691769F37600741844 /* CoreTelephony.framework */; };
+		E00E88D91AC5808000695C0A /* UIDeviceHardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00E88D81AC5808000695C0A /* UIDeviceHardware.swift */; };
+		E01756381A8B4F500017C08E /* QOSFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01756371A8B4F500017C08E /* QOSFactory.swift */; };
+		E01A0C8F1A88DC000090F738 /* PingUtilDelegateBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01A0C8E1A88DC000090F738 /* PingUtilDelegateBridge.swift */; };
+		E01A0C901A88DC9D0090F738 /* PingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC56741A84D7C100D04214 /* PingUtil.m */; };
+		E01A0C911A88E9540090F738 /* PingUtilSwiftDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01A0C8C1A88CA810090F738 /* PingUtilSwiftDelegate.swift */; };
+		E0207CE219CC1FE50045824C /* RMBTNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0207CE119CC1FE50045824C /* RMBTNews.swift */; };
+		E0207CE419CC24510045824C /* RMBTLocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0207CE319CC24510045824C /* RMBTLocationTracker.swift */; };
+		E0207CE919CC3AAB0045824C /* RMBTAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0207CE619CC34D40045824C /* RMBTAppDelegate.swift */; };
+		E0221EE01A7FA93B00C42CC6 /* NonOptionalGCDAsyncSocketDelegateImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0221EDD1A7FA93B00C42CC6 /* NonOptionalGCDAsyncSocketDelegateImpl.swift */; };
+		E0221EE11A7FA93B00C42CC6 /* WalledGardenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0221EDE1A7FA93B00C42CC6 /* WalledGardenTest.swift */; };
+		E039551B1AA080F400369A08 /* UDPStreamSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039551A1AA080F400369A08 /* UDPStreamSender.swift */; };
+		E039551D1AA0811300369A08 /* UDPStreamSenderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039551C1AA0811300369A08 /* UDPStreamSenderDelegate.swift */; };
+		E04360BF1A386966004E0D84 /* XCGLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04360BA1A386966004E0D84 /* XCGLogger.swift */; };
+		E04360C21A388461004E0D84 /* QOSTypeDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04360C11A388461004E0D84 /* QOSTypeDefinition.swift */; };
+		E046AB3B1A80F3870063AAB0 /* TrafficClassification.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046AB3A1A80F3870063AAB0 /* TrafficClassification.swift */; };
+		E046AB3D1A80F4BC0063AAB0 /* LogConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046AB3C1A80F4BC0063AAB0 /* LogConfig.swift */; };
+		E046EDB91AC59CC900EBB656 /* RMBTUICheckmarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDB81AC59CC900EBB656 /* RMBTUICheckmarkView.swift */; };
+		E046EDBB1AC59FF600EBB656 /* RMBTUITrafficView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDBA1AC59FF600EBB656 /* RMBTUITrafficView.swift */; };
+		E046EDBC1AC5A81400EBB656 /* RMBTGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0207CEB19CC56BE0045824C /* RMBTGaugeView.swift */; };
+		E046EDBE1AC5B0FA00EBB656 /* RMBTSSLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDBD1AC5B0FA00EBB656 /* RMBTSSLHelper.swift */; };
+		E046EDC21AC9330600EBB656 /* RMBTMapMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDC11AC9330600EBB656 /* RMBTMapMeasurement.swift */; };
+		E046EDC41AC936E700EBB656 /* RMBTMapServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDC31AC936E700EBB656 /* RMBTMapServer.swift */; };
+		E046EDC61AC949C500EBB656 /* RMBTMapOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDC51AC949C500EBB656 /* RMBTMapOptions.swift */; };
+		E046EDC81AC972FB00EBB656 /* RMBTMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDC71AC972FB00EBB656 /* RMBTMapViewController.swift */; };
+		E046EDCA1ACA89A000EBB656 /* RMBTHistoryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDC91ACA89A000EBB656 /* RMBTHistoryResult.swift */; };
+		E046EDCB1ACA98F800EBB656 /* RMBTHistoryIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A0DD6719D5B327003F87E1 /* RMBTHistoryIndexViewController.swift */; };
+		E046EDCD1ACD7D5B00EBB656 /* TemporaryRMBTHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDCC1ACD7D5B00EBB656 /* TemporaryRMBTHelpers.swift */; };
+		E046EDCF1ACD86A200EBB656 /* RMBTSpeed_Temporary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046EDCE1ACD86A200EBB656 /* RMBTSpeed_Temporary.swift */; };
+		E05750341A43093F00C6D558 /* QOSTestExecutorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05750331A43093F00C6D558 /* QOSTestExecutorClass.swift */; };
+		E05D5A241AD6B396002E4336 /* RMBTUICrossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D5A231AD6B396002E4336 /* RMBTUICrossView.swift */; };
+		E05D5A251AD6C196002E4336 /* RMBTTestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16A65AB1ACEDDB200DFA819 /* RMBTTestResult.swift */; };
+		E062B5831AAEF6F1005234FB /* DNSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B57C1AAEF6F1005234FB /* DNSClient.swift */; };
+		E062B5841AAEF6F1005234FB /* DNSHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B57D1AAEF6F1005234FB /* DNSHeader.swift */; };
+		E062B5851AAEF6F1005234FB /* DNSQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B57E1AAEF6F1005234FB /* DNSQuestion.swift */; };
+		E062B5861AAEF6F1005234FB /* DNSRecordClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B57F1AAEF6F1005234FB /* DNSRecordClass.swift */; };
+		E062B5871AAEF6F1005234FB /* DNSResourceRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B5801AAEF6F1005234FB /* DNSResourceRecord.swift */; };
+		E062B5881AAEF6F1005234FB /* GetDNSIP.m in Sources */ = {isa = PBXBuildFile; fileRef = E062B5821AAEF6F1005234FB /* GetDNSIP.m */; };
+		E062B58A1AAEF77C005234FB /* ServiceTypeMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B5891AAEF77C005234FB /* ServiceTypeMapping.swift */; };
+		E062B58C1AAEF84A005234FB /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E062B58B1AAEF84A005234FB /* libresolv.dylib */; };
+		E062B5911AB1EF1F005234FB /* RTPPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B5901AB1EF1F005234FB /* RTPPacket.swift */; };
+		E062B5931AB1F2F2005234FB /* NSData+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B5921AB1F2F2005234FB /* NSData+Extensions.swift */; };
+		E062B59B1AB3285C005234FB /* UInt+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B59A1AB3285C005234FB /* UInt+Extensions.swift */; };
+		E062B59E1AB8306D005234FB /* RTPControlData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B59D1AB8306D005234FB /* RTPControlData.swift */; };
+		E062B5A01AB833C2005234FB /* RTPResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B59F1AB833C2005234FB /* RTPResult.swift */; };
+		E062B5A21AB83794005234FB /* RTPSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062B5A11AB83794005234FB /* RTPSequence.swift */; };
+		E062BBA91A31EF1F00F94568 /* QOSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBA81A31EF1F00F94568 /* QOSTest.swift */; };
+		E062BBAB1A31FB5A00F94568 /* QOSTestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBAA1A31FB5A00F94568 /* QOSTestType.swift */; };
+		E062BBAD1A31FE7900F94568 /* QOSHTTPProxyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBAC1A31FE7900F94568 /* QOSHTTPProxyTest.swift */; };
+		E062BBAF1A31FEA800F94568 /* QOSTCPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBAE1A31FEA800F94568 /* QOSTCPTest.swift */; };
+		E062BBB11A31FED100F94568 /* QOSUDPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBB01A31FED100F94568 /* QOSUDPTest.swift */; };
+		E062BBB31A31FEEF00F94568 /* QOSNonTransparentProxyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBB21A31FEEF00F94568 /* QOSNonTransparentProxyTest.swift */; };
+		E062BBB51A31FF0D00F94568 /* QOSWebsiteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBB41A31FF0D00F94568 /* QOSWebsiteTest.swift */; };
+		E062BBB71A31FF2B00F94568 /* QOSDNSTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBB61A31FF2B00F94568 /* QOSDNSTest.swift */; };
+		E062BBB91A31FF4200F94568 /* QOSVOIPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBB81A31FF4200F94568 /* QOSVOIPTest.swift */; };
+		E062BBBD1A32007100F94568 /* QOSTracerouteTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBBC1A32007100F94568 /* QOSTracerouteTest.swift */; };
+		E062BBC01A32118F00F94568 /* QOSTestExecutorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062BBBF1A32118F00F94568 /* QOSTestExecutorProtocol.swift */; };
+		E069559C1AC3F292000A2C8D /* terms_conditions_long.html in Resources */ = {isa = PBXBuildFile; fileRef = E069559E1AC3F292000A2C8D /* terms_conditions_long.html */; };
+		E06955A41AC3F2D3000A2C8D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E06955A61AC3F2D3000A2C8D /* Localizable.strings */; };
+		E06955E01AC3F44F000A2C8D /* RBMTTestTableViewCell_Q.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06955DA1AC3F44F000A2C8D /* RBMTTestTableViewCell_Q.xib */; };
+		E06955E11AC3F44F000A2C8D /* RMBTHistoryItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06955DB1AC3F44F000A2C8D /* RMBTHistoryItemCell.xib */; };
+		E06955E21AC3F44F000A2C8D /* RMBTMapCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06955DC1AC3F44F000A2C8D /* RMBTMapCalloutView.xib */; };
+		E06955E41AC3F44F000A2C8D /* RMBTPUProtocolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06955DE1AC3F44F000A2C8D /* RMBTPUProtocolView.xib */; };
+		E06955E51AC3F44F000A2C8D /* RMBTPUTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06955DF1AC3F44F000A2C8D /* RMBTPUTableViewCell.xib */; };
+		E06AADD41B836CF200C96FDD /* RMBTTOSPublishPersonalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06AADD31B836CF200C96FDD /* RMBTTOSPublishPersonalDataViewController.swift */; };
+		E06AADD71B836F1A00C96FDD /* publish_personal_data_text.html in Resources */ = {isa = PBXBuildFile; fileRef = E06AADD51B836F1A00C96FDD /* publish_personal_data_text.html */; };
+		E075F0291A7272DA00B86462 /* QOSTracerouteTestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E075F0281A7272DA00B86462 /* QOSTracerouteTestExecutor.swift */; };
+		E0776E8D1A3704CD0076531B /* QOSControlConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0776E8C1A3704CD0076531B /* QOSControlConnection.swift */; };
+		E0776E8F1A3709540076531B /* SocketUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0776E8E1A3709540076531B /* SocketUtils.swift */; };
+		E0776E911A370F490076531B /* QOSTCPTestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0776E901A370F490076531B /* QOSTCPTestExecutor.swift */; };
+		E0776E931A37135F0076531B /* QOSControlConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0776E921A37135F0076531B /* QOSControlConnectionDelegate.swift */; };
+		E0776E961A3715F40076531B /* QOSTestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0776E951A3715F40076531B /* QOSTestResult.swift */; };
+		E0776E991A384D610076531B /* QOSControlConnectionTaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0776E981A384D610076531B /* QOSControlConnectionTaskDelegate.swift */; };
+		E07F89571A84B1B400478171 /* QOSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F89561A84B1B400478171 /* QOSConfig.swift */; };
+		E082C9DD1A8A4332002E0691 /* SharedKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E082C9DC1A8A4332002E0691 /* SharedKeychain.swift */; };
+		E082C9DF1A8B4826002E0691 /* NonOptionalGCDAsyncUdpSocketDelegateImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E082C9DE1A8B4826002E0691 /* NonOptionalGCDAsyncUdpSocketDelegateImpl.swift */; };
+		E082C9E11A8B4991002E0691 /* NonOptionalGCDAsyncUdpSocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E082C9E01A8B4991002E0691 /* NonOptionalGCDAsyncUdpSocketDelegate.swift */; };
+		E08B41EE19D05E04000DE732 /* RMBTTOSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08B41ED19D05E04000DE732 /* RMBTTOSViewController.swift */; };
+		E08E9D5E1B8377180093C40C /* iPhoneMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08E9D5C1B8377180093C40C /* iPhoneMain.storyboard */; };
+		E08EA33F1A936E7500E2B493 /* HopDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08EA33E1A936E7500E2B493 /* HopDetail.swift */; };
+		E09E15311A3F0CB4001DE175 /* QOSNonTransparentProxyTestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09E15301A3F0CB4001DE175 /* QOSNonTransparentProxyTestExecutor.swift */; };
+		E09E153B1A402703001DE175 /* RMBTTrafficCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = E09E153A1A402703001DE175 /* RMBTTrafficCounter.m */; };
+		E09E153F1A403D76001DE175 /* RMBTCPUMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = E09E153E1A403D76001DE175 /* RMBTCPUMonitor.m */; };
+		E09E15421A403E43001DE175 /* RMBTRAMMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = E09E15411A403E43001DE175 /* RMBTRAMMonitor.m */; };
+		E09FE04A1A444B37000089C5 /* NonOptionalGCDAsyncSocketDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09FE0491A444B37000089C5 /* NonOptionalGCDAsyncSocketDelegate.swift */; };
+		E0A0DD6219D5A917003F87E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70C178B17D7BFC400F55964 /* Images.xcassets */; };
+		E0A76E7619D172BF00BE4029 /* UIViewController+ModalBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0207CDF19CC1E020045824C /* UIViewController+ModalBrowser.swift */; };
+		E0A76E7C19D178C100BE4029 /* UIView+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A76E7B19D178C100BE4029 /* UIView+Position.swift */; };
+		E0A76E8019D1A0AA00BE4029 /* RMBTInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A76E7F19D1A0AA00BE4029 /* RMBTInfoViewController.swift */; };
+		E0AA94FE1A83C2A80041630F /* ControlServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E046AB401A8245C00063AAB0 /* ControlServer.swift */; };
+		E0B2BE981A6D337F00136212 /* QOSHTTPProxyTestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2BE971A6D337F00136212 /* QOSHTTPProxyTestExecutor.swift */; };
+		E0B2BECE1A6E7CE200136212 /* StringMD5Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2BECD1A6E7CE200136212 /* StringMD5Extension.swift */; };
+		E0B2BED01A6E8A6200136212 /* SwiftExactTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2BECF1A6E8A6200136212 /* SwiftExactTime.swift */; };
+		E0B2BED21A6E9D0400136212 /* RMBTJSONHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2BED11A6E9D0400136212 /* RMBTJSONHelper.swift */; };
+		E0B2BED41A6EAAC400136212 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2BED31A6EAAC400136212 /* String+Extensions.swift */; };
+		E0B2BED61A6EAEC400136212 /* QOSWebsiteTestExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2BED51A6EAEC400136212 /* QOSWebsiteTestExecutor.swift */; };
+		E0B2BED91A6EBA6100136212 /* WebViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B2BED81A6EBA6100136212 /* WebViewDelegate.swift */; };
+		E0C6A0CA19CB045E00E6B04F /* RMBTInfoTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6A0C919CB045E00E6B04F /* RMBTInfoTextViewController.swift */; };
+		E0C6A0D019CB215E00E6B04F /* RMBTTOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6A0CF19CB215E00E6B04F /* RMBTTOS.swift */; };
+		E0D553D91A9B2BE100CF2DA7 /* MapViewHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D553D81A9B2BE100CF2DA7 /* MapViewHolder.swift */; };
+		E0D553F01A9C66D800CF2DA7 /* ConnectivityServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D553EF1A9C66D800CF2DA7 /* ConnectivityServiceDelegate.swift */; };
+		E0D553F21A9DDB6800CF2DA7 /* UDPStreamReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D553F11A9DDB6800CF2DA7 /* UDPStreamReceiver.swift */; };
+		E0D553F41A9DE84000CF2DA7 /* UDPStreamReceiverDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D553F31A9DE84000CF2DA7 /* UDPStreamReceiverDelegate.swift */; };
+		E0D553F61A9E025000CF2DA7 /* AtomicBoolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D553F51A9E025000CF2DA7 /* AtomicBoolean.swift */; };
+		E0D839541BE2508E00CD2BC8 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D839531BE2508E00CD2BC8 /* OrderedDictionary.swift */; };
+		E0D839561BE2528300CD2BC8 /* RMBTSpeedGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D839551BE2528300CD2BC8 /* RMBTSpeedGraphView.swift */; };
+		E0DADD991A8C986000E0E094 /* CountDownLatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DADD981A8C986000E0E094 /* CountDownLatch.swift */; };
+		E0DADD9B1A8CB7F400E0E094 /* ConversionUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DADD9A1A8CB7F400E0E094 /* ConversionUtility.swift */; };
+		E0E8566019D1B68500BAAFD2 /* RMBTHistoryResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8565F19D1B68500BAAFD2 /* RMBTHistoryResultViewController.swift */; };
+		E0E8566219D2ABE600BAAFD2 /* RMBTHistoryResultItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8566119D2ABE600BAAFD2 /* RMBTHistoryResultItemCell.swift */; };
+		E0E8566419D2B43500BAAFD2 /* RMBTHistoryIndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8566319D2B43500BAAFD2 /* RMBTHistoryIndexCell.swift */; };
+		E0E8566619D2B69B00BAAFD2 /* UITableViewCell+RMBTHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8566519D2B69B00BAAFD2 /* UITableViewCell+RMBTHeight.swift */; };
+		E0E8566819D2BA8400BAAFD2 /* CLLocation+RMBTFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8566719D2BA8400BAAFD2 /* CLLocation+RMBTFormat.swift */; };
+		E0E8566A19D2C33300BAAFD2 /* RMBTVerticalTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8566919D2C33300BAAFD2 /* RMBTVerticalTransitionController.swift */; };
+		E0E8566E19D2E62500BAAFD2 /* RMBTMapCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8566D19D2E62500BAAFD2 /* RMBTMapCalloutView.swift */; };
+		E0EA2CBF1A7F7A68000A916E /* ConnectivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EA2CBE1A7F7A68000A916E /* ConnectivityService.swift */; };
+		E0EC56781A84EFC800D04214 /* NSString+IPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC56771A84EFC800D04214 /* NSString+IPAddress.m */; };
+		E0EC90B61A96445000C66B3B /* RMBTHistoryFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8567419D3FEF200BAAFD2 /* RMBTHistoryFilterViewController.swift */; };
+		E0F1CD6219D0238D00F63937 /* RMBTHistoryResultDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C6A0CD19CB181900E6B04F /* RMBTHistoryResultDetailsViewController.swift */; };
+		E0FA5AAB1AE7A293009DE36A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0FA5AAD1AE7A293009DE36A /* InfoPlist.strings */; };
+		F74A0064B94F492FB6A6BC06 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A8E3D648BB433FACE84120 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3306250E1A84A04A009A49E2 /* RMBTStatisticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTStatisticsViewController.swift; sourceTree = "<group>"; };
+		331927DF1A6E882C004D88B6 /* RMBTPUHardwareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTPUHardwareView.swift; sourceTree = "<group>"; };
+		331927E31A6EB681004D88B6 /* RMBTPUProtocolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTPUProtocolView.swift; sourceTree = "<group>"; };
+		331927E91A6FCE99004D88B6 /* RMBTPUTrafficView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTPUTrafficView.swift; sourceTree = "<group>"; };
+		331927EE1A6FD07F004D88B6 /* RMBTPULocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTPULocationView.swift; sourceTree = "<group>"; };
+		331927F21A6FD5CC004D88B6 /* RMBTPopupContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTPopupContentView.swift; sourceTree = "<group>"; };
+		33220F071A6D4453009FED5D /* RMBTHelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTHelpViewController.swift; sourceTree = "<group>"; };
+		33391C611A77D36C00CDF415 /* RMBTHistoryItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTHistoryItemCell.swift; sourceTree = "<group>"; };
+		334A0D371A80C4820091B983 /* RMBTTesterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTTesterViewController.swift; sourceTree = "<group>"; };
+		3356DE711A8A0E44007A0CC9 /* RMBTQoS_Menu_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTQoS_Menu_TableViewCell.swift; sourceTree = "<group>"; };
+		3356E2CE1A8E2A7D005EBE25 /* RMBTQoSDetailsTestParamsTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTQoSDetailsTestParamsTVCell.swift; sourceTree = "<group>"; };
+		336802721A66760A001081EF /* RMBTConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTConfig.swift; sourceTree = "<group>"; };
+		336802791A66C159001081EF /* RMBTSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTSideMenuController.swift; sourceTree = "<group>"; };
+		3368027B1A66C1C1001081EF /* RMBTInitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTInitialViewController.swift; sourceTree = "<group>"; };
+		336802BB1A67C20F001081EF /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		336802BC1A67C20F001081EF /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3377EC3C1A8B570B00A4C937 /* RMBTQoSDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTQoSDetailVC.swift; sourceTree = "<group>"; };
+		3377EC3E1A8B587D00A4C937 /* RMBTQoSTestDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTQoSTestDetailVC.swift; sourceTree = "<group>"; };
+		337C93F21A695F7D002F438E /* RMBTPopupViewButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTPopupViewButton.swift; sourceTree = "<group>"; };
+		338B97791AA0733900AADE67 /* RMBT_ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBT_ProgressView.swift; sourceTree = "<group>"; };
+		33AD9A1D1A70FCE600E2FFEA /* RMBTPUTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTPUTableViewCell.swift; sourceTree = "<group>"; };
+		33C43D731A84C8BE00716A72 /* RMBTQoSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTQoSViewController.swift; sourceTree = "<group>"; };
+		33C43D751A84CD5300716A72 /* RMBTQoS_Result_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTQoS_Result_TableViewCell.swift; sourceTree = "<group>"; };
+		33CE7DF41A7A206D0091B09D /* RMBTTestTableViewCell_M.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTTestTableViewCell_M.swift; sourceTree = "<group>"; };
+		33CE7DF61A7A20A70091B09D /* RMBTTestTableViewCell_H.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTTestTableViewCell_H.swift; sourceTree = "<group>"; };
+		33CE7DF81A7A3D180091B09D /* RMBTTestTableViewCell_Q.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTTestTableViewCell_Q.swift; sourceTree = "<group>"; };
+		89CA4DFAF361F6C4C3743E8B /* libPods-IntegrationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IntegrationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84CB5C60898B4EDE31AF006 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B10536771ABC8F2C008DC77A /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		B108FE871AD7F663007582F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RMBTPUTrafficView.xib; sourceTree = "<group>"; };
+		B108FE891AD7F684007582F9 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/RMBTPUTrafficView.strings; sourceTree = "<group>"; };
+		B108FE8A1AD7F687007582F9 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/RMBTPUTrafficView.strings; sourceTree = "<group>"; };
+		B114A44F1A7A00AC008F6EF9 /* QOSDNSTestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSDNSTestExecutor.swift; sourceTree = "<group>"; };
+		B114A4531A7A02BD008F6EF9 /* QOSUDPTestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSUDPTestExecutor.swift; sourceTree = "<group>"; };
+		B114A4571A7A0441008F6EF9 /* QOSVOIPTestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSVOIPTestExecutor.swift; sourceTree = "<group>"; };
+		B11D9B111A6978C7009C2279 /* QualityOfServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityOfServiceTest.swift; sourceTree = "<group>"; };
+		B11D9B131A6978EC009C2279 /* QualityOfServiceTestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityOfServiceTestDelegate.swift; sourceTree = "<group>"; };
+		B14959811A8944A60085539C /* GCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDTimer.swift; sourceTree = "<group>"; };
+		B15E34451AC72DB900DCF268 /* RMBTPing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTPing.swift; sourceTree = "<group>"; };
+		B16A65AB1ACEDDB200DFA819 /* RMBTTestResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTTestResult.swift; sourceTree = "<group>"; };
+		B18309CC1AC9B9700087407E /* RMBTMapSubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTMapSubViewController.swift; sourceTree = "<group>"; };
+		B19AFDAF1ACAFBF9000E51DF /* RMBTThroughputHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTThroughputHistory.swift; sourceTree = "<group>"; };
+		B1C9CC2D1AC883F0004E6ACD /* RMBTThroughput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTThroughput.swift; sourceTree = "<group>"; };
+		BC9673417C1CC5C30595E526 /* Pods-IntegrationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrationTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrationTests/Pods-IntegrationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C573F2A4175281D300C728FC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C573F2B0175294A500C728FC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C59D7B451764E6CF003E9702 /* RMBTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTHelpers.h; sourceTree = "<group>"; };
+		C59D7B461764E6CF003E9702 /* RMBTHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTHelpers.m; sourceTree = "<group>"; };
+		C5DEB475176364B100187C94 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C5DEB477176364BC00187C94 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C5DEB479176364C300187C94 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C5DEB47B176364C900187C94 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C5DEB47D176364CE00187C94 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C5DEB47F176364D500187C94 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		C5DEB481176364D900187C94 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		C5DEB483176364DF00187C94 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C5DEB485176364E400187C94 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C70C178B17D7BFC400F55964 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C73E792517673EBE0009855E /* RMBTSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTSettings.h; sourceTree = "<group>"; };
+		C73E792617673EBE0009855E /* RMBTSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTSettings.m; sourceTree = "<group>"; };
+		C73E7928176761630009855E /* RMBTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTSettingsViewController.h; sourceTree = "<group>"; };
+		C73E7929176761630009855E /* RMBTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTSettingsViewController.m; sourceTree = "<group>"; };
+		C774EE7517920C9C00D623A3 /* RMBTConnectivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTConnectivity.h; sourceTree = "<group>"; };
+		C774EE7617920C9C00D623A3 /* RMBTConnectivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTConnectivity.m; sourceTree = "<group>"; };
+		C779E9E817403364003874AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C7916EAA173E945E00B40152 /* RMBT-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RMBT-Info.plist"; sourceTree = "<group>"; };
+		C7916EB6173EB65F00B40152 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C7916EB8173EB68200B40152 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C79401EF17FAE2EF00484B8A /* RMBTNetworkType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTNetworkType.h; sourceTree = "<group>"; };
+		C7978FD517F1D07100BF986C /* RMBTConnectivityTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTConnectivityTracker.h; sourceTree = "<group>"; };
+		C7978FD617F1D07100BF986C /* RMBTConnectivityTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTConnectivityTracker.m; sourceTree = "<group>"; };
+		C7C0EFE3176CD18F003758AA /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Configurations/Debug.xcconfig; sourceTree = SOURCE_ROOT; };
+		C7CC5560176CEAF300861605 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Shared.xcconfig; path = Configurations/Shared.xcconfig; sourceTree = "<group>"; };
+		C7DE1478173E8F610079477A /* RMBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7DE147B173E8F610079477A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7DE147D173E8F610079477A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7DE147F173E8F610079477A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7DE1489173E8F610079477A /* RMBT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMBT-Prefix.pch"; sourceTree = "<group>"; };
+		C7EBA1A6173FE4A40055F578 /* RMBTTestWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTTestWorker.h; sourceTree = "<group>"; };
+		C7EBA1A7173FE4A40055F578 /* RMBTTestWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTTestWorker.m; sourceTree = "<group>"; };
+		C7ECD90D174DB042000DF966 /* RMBTTestRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTTestRunner.h; sourceTree = "<group>"; };
+		C7ECD90E174DB042000DF966 /* RMBTTestRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTTestRunner.m; sourceTree = "<group>"; };
+		C7F08F691769F37600741844 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D4A8E3D648BB433FACE84120 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00E88D81AC5808000695C0A /* UIDeviceHardware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceHardware.swift; sourceTree = "<group>"; };
+		E01756371A8B4F500017C08E /* QOSFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSFactory.swift; sourceTree = "<group>"; };
+		E01A0C8B1A88C8810090F738 /* RMBTBlockTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTBlockTypes.h; sourceTree = "<group>"; };
+		E01A0C8C1A88CA810090F738 /* PingUtilSwiftDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingUtilSwiftDelegate.swift; sourceTree = "<group>"; };
+		E01A0C8E1A88DC000090F738 /* PingUtilDelegateBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingUtilDelegateBridge.swift; sourceTree = "<group>"; };
+		E0207CDF19CC1E020045824C /* UIViewController+ModalBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ModalBrowser.swift"; sourceTree = "<group>"; };
+		E0207CE119CC1FE50045824C /* RMBTNews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTNews.swift; sourceTree = "<group>"; };
+		E0207CE319CC24510045824C /* RMBTLocationTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTLocationTracker.swift; sourceTree = "<group>"; };
+		E0207CE619CC34D40045824C /* RMBTAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTAppDelegate.swift; sourceTree = "<group>"; };
+		E0207CEB19CC56BE0045824C /* RMBTGaugeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTGaugeView.swift; sourceTree = "<group>"; };
+		E0207CED19CC5F470045824C /* RMBTMapOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTMapOptionsViewController.swift; sourceTree = "<group>"; };
+		E0221EDD1A7FA93B00C42CC6 /* NonOptionalGCDAsyncSocketDelegateImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonOptionalGCDAsyncSocketDelegateImpl.swift; sourceTree = "<group>"; };
+		E0221EDE1A7FA93B00C42CC6 /* WalledGardenTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalledGardenTest.swift; sourceTree = "<group>"; };
+		E0221EE21A7FAB2900C42CC6 /* RMBTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTConfig.h; sourceTree = "<group>"; };
+		E02FAB811A91DB8F000C75C1 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Configurations/Release.xcconfig; sourceTree = "<group>"; };
+		E02FAB831A92098E000C75C1 /* Beta.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Beta.xcconfig; path = Configurations/Beta.xcconfig; sourceTree = "<group>"; };
+		E039551A1AA080F400369A08 /* UDPStreamSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPStreamSender.swift; sourceTree = "<group>"; };
+		E039551C1AA0811300369A08 /* UDPStreamSenderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPStreamSenderDelegate.swift; sourceTree = "<group>"; };
+		E04360B41A386966004E0D84 /* XCGLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCGLogger.h; sourceTree = "<group>"; };
+		E04360BA1A386966004E0D84 /* XCGLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCGLogger.swift; sourceTree = "<group>"; };
+		E04360C11A388461004E0D84 /* QOSTypeDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTypeDefinition.swift; sourceTree = "<group>"; };
+		E046AB3A1A80F3870063AAB0 /* TrafficClassification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrafficClassification.swift; sourceTree = "<group>"; };
+		E046AB3C1A80F4BC0063AAB0 /* LogConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogConfig.swift; sourceTree = "<group>"; };
+		E046AB401A8245C00063AAB0 /* ControlServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlServer.swift; sourceTree = "<group>"; };
+		E046EDB81AC59CC900EBB656 /* RMBTUICheckmarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTUICheckmarkView.swift; sourceTree = "<group>"; };
+		E046EDBA1AC59FF600EBB656 /* RMBTUITrafficView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTUITrafficView.swift; sourceTree = "<group>"; };
+		E046EDBD1AC5B0FA00EBB656 /* RMBTSSLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTSSLHelper.swift; sourceTree = "<group>"; };
+		E046EDBF1AC5B48000EBB656 /* RMBTTestParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTTestParams.swift; sourceTree = "<group>"; };
+		E046EDC11AC9330600EBB656 /* RMBTMapMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTMapMeasurement.swift; sourceTree = "<group>"; };
+		E046EDC31AC936E700EBB656 /* RMBTMapServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTMapServer.swift; sourceTree = "<group>"; };
+		E046EDC51AC949C500EBB656 /* RMBTMapOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTMapOptions.swift; sourceTree = "<group>"; };
+		E046EDC71AC972FB00EBB656 /* RMBTMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTMapViewController.swift; sourceTree = "<group>"; };
+		E046EDC91ACA89A000EBB656 /* RMBTHistoryResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTHistoryResult.swift; sourceTree = "<group>"; };
+		E046EDCC1ACD7D5B00EBB656 /* TemporaryRMBTHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemporaryRMBTHelpers.swift; sourceTree = "<group>"; };
+		E046EDCE1ACD86A200EBB656 /* RMBTSpeed_Temporary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTSpeed_Temporary.swift; sourceTree = "<group>"; };
+		E05750331A43093F00C6D558 /* QOSTestExecutorClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTestExecutorClass.swift; sourceTree = "<group>"; };
+		E05AD2351AD5214900867B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RMBTPUHardwareView.xib; sourceTree = "<group>"; };
+		E05D5A231AD6B396002E4336 /* RMBTUICrossView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTUICrossView.swift; sourceTree = "<group>"; };
+		E062B57C1AAEF6F1005234FB /* DNSClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSClient.swift; sourceTree = "<group>"; };
+		E062B57D1AAEF6F1005234FB /* DNSHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSHeader.swift; sourceTree = "<group>"; };
+		E062B57E1AAEF6F1005234FB /* DNSQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSQuestion.swift; sourceTree = "<group>"; };
+		E062B57F1AAEF6F1005234FB /* DNSRecordClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSRecordClass.swift; sourceTree = "<group>"; };
+		E062B5801AAEF6F1005234FB /* DNSResourceRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSResourceRecord.swift; sourceTree = "<group>"; };
+		E062B5811AAEF6F1005234FB /* GetDNSIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetDNSIP.h; sourceTree = "<group>"; };
+		E062B5821AAEF6F1005234FB /* GetDNSIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetDNSIP.m; sourceTree = "<group>"; };
+		E062B5891AAEF77C005234FB /* ServiceTypeMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTypeMapping.swift; sourceTree = "<group>"; };
+		E062B58B1AAEF84A005234FB /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		E062B5901AB1EF1F005234FB /* RTPPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTPPacket.swift; sourceTree = "<group>"; };
+		E062B5921AB1F2F2005234FB /* NSData+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+Extensions.swift"; sourceTree = "<group>"; };
+		E062B59A1AB3285C005234FB /* UInt+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UInt+Extensions.swift"; sourceTree = "<group>"; };
+		E062B59D1AB8306D005234FB /* RTPControlData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTPControlData.swift; sourceTree = "<group>"; };
+		E062B59F1AB833C2005234FB /* RTPResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTPResult.swift; sourceTree = "<group>"; };
+		E062B5A11AB83794005234FB /* RTPSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTPSequence.swift; sourceTree = "<group>"; };
+		E062BBA81A31EF1F00F94568 /* QOSTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTest.swift; sourceTree = "<group>"; };
+		E062BBAA1A31FB5A00F94568 /* QOSTestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTestType.swift; sourceTree = "<group>"; };
+		E062BBAC1A31FE7900F94568 /* QOSHTTPProxyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSHTTPProxyTest.swift; sourceTree = "<group>"; };
+		E062BBAE1A31FEA800F94568 /* QOSTCPTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTCPTest.swift; sourceTree = "<group>"; };
+		E062BBB01A31FED100F94568 /* QOSUDPTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSUDPTest.swift; sourceTree = "<group>"; };
+		E062BBB21A31FEEF00F94568 /* QOSNonTransparentProxyTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSNonTransparentProxyTest.swift; sourceTree = "<group>"; };
+		E062BBB41A31FF0D00F94568 /* QOSWebsiteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSWebsiteTest.swift; sourceTree = "<group>"; };
+		E062BBB61A31FF2B00F94568 /* QOSDNSTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSDNSTest.swift; sourceTree = "<group>"; };
+		E062BBB81A31FF4200F94568 /* QOSVOIPTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSVOIPTest.swift; sourceTree = "<group>"; };
+		E062BBBC1A32007100F94568 /* QOSTracerouteTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTracerouteTest.swift; sourceTree = "<group>"; };
+		E062BBBF1A32118F00F94568 /* QOSTestExecutorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTestExecutorProtocol.swift; sourceTree = "<group>"; };
+		E069559D1AC3F292000A2C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/terms_conditions_long.html; sourceTree = "<group>"; };
+		E06955A51AC3F2D3000A2C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E06955CB1AC3F3CD000A2C8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/RMBTPULocationView.xib; sourceTree = "<group>"; };
+		E06955DA1AC3F44F000A2C8D /* RBMTTestTableViewCell_Q.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBMTTestTableViewCell_Q.xib; sourceTree = "<group>"; };
+		E06955DB1AC3F44F000A2C8D /* RMBTHistoryItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMBTHistoryItemCell.xib; sourceTree = "<group>"; };
+		E06955DC1AC3F44F000A2C8D /* RMBTMapCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMBTMapCalloutView.xib; sourceTree = "<group>"; };
+		E06955DE1AC3F44F000A2C8D /* RMBTPUProtocolView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMBTPUProtocolView.xib; sourceTree = "<group>"; };
+		E06955DF1AC3F44F000A2C8D /* RMBTPUTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RMBTPUTableViewCell.xib; sourceTree = "<group>"; };
+		E06955EB1AC3F55B000A2C8D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/RMBTPULocationView.strings; sourceTree = "<group>"; };
+		E06955EE1AC3F55B000A2C8D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = de; path = de.lproj/terms_conditions_long.html; sourceTree = "<group>"; };
+		E06955EF1AC3F55B000A2C8D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E06955F01AC3FA3A000A2C8D /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/RMBTPULocationView.strings; sourceTree = "<group>"; };
+		E06955F31AC3FA3A000A2C8D /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = sl; path = sl.lproj/terms_conditions_long.html; sourceTree = "<group>"; };
+		E06955F41AC3FA3A000A2C8D /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E06AADD31B836CF200C96FDD /* RMBTTOSPublishPersonalDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTTOSPublishPersonalDataViewController.swift; sourceTree = "<group>"; };
+		E06AADD61B836F1A00C96FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/publish_personal_data_text.html; sourceTree = "<group>"; };
+		E06AADD81B836FA100C96FDD /* de */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = de; path = de.lproj/publish_personal_data_text.html; sourceTree = "<group>"; };
+		E06AADD91B836FA300C96FDD /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = sl; path = sl.lproj/publish_personal_data_text.html; sourceTree = "<group>"; };
+		E075F0281A7272DA00B86462 /* QOSTracerouteTestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTracerouteTestExecutor.swift; sourceTree = "<group>"; };
+		E0776E8C1A3704CD0076531B /* QOSControlConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSControlConnection.swift; sourceTree = "<group>"; };
+		E0776E8E1A3709540076531B /* SocketUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketUtils.swift; sourceTree = "<group>"; };
+		E0776E901A370F490076531B /* QOSTCPTestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTCPTestExecutor.swift; sourceTree = "<group>"; };
+		E0776E921A37135F0076531B /* QOSControlConnectionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSControlConnectionDelegate.swift; sourceTree = "<group>"; };
+		E0776E951A3715F40076531B /* QOSTestResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSTestResult.swift; sourceTree = "<group>"; };
+		E0776E981A384D610076531B /* QOSControlConnectionTaskDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSControlConnectionTaskDelegate.swift; sourceTree = "<group>"; };
+		E07F89561A84B1B400478171 /* QOSConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSConfig.swift; sourceTree = "<group>"; };
+		E082C9DC1A8A4332002E0691 /* SharedKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedKeychain.swift; sourceTree = "<group>"; };
+		E082C9DE1A8B4826002E0691 /* NonOptionalGCDAsyncUdpSocketDelegateImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonOptionalGCDAsyncUdpSocketDelegateImpl.swift; sourceTree = "<group>"; };
+		E082C9E01A8B4991002E0691 /* NonOptionalGCDAsyncUdpSocketDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonOptionalGCDAsyncUdpSocketDelegate.swift; sourceTree = "<group>"; };
+		E08B41ED19D05E04000DE732 /* RMBTTOSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTTOSViewController.swift; sourceTree = "<group>"; };
+		E08E9D5D1B8377180093C40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhoneMain.storyboard; sourceTree = "<group>"; };
+		E08EA33E1A936E7500E2B493 /* HopDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HopDetail.swift; sourceTree = "<group>"; };
+		E09E15301A3F0CB4001DE175 /* QOSNonTransparentProxyTestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSNonTransparentProxyTestExecutor.swift; sourceTree = "<group>"; };
+		E09E153A1A402703001DE175 /* RMBTTrafficCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTTrafficCounter.m; sourceTree = "<group>"; };
+		E09E153C1A40271C001DE175 /* RMBTTrafficCounter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMBTTrafficCounter.h; sourceTree = "<group>"; };
+		E09E153D1A403D33001DE175 /* RMBTCPUMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTCPUMonitor.h; sourceTree = "<group>"; };
+		E09E153E1A403D76001DE175 /* RMBTCPUMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTCPUMonitor.m; sourceTree = "<group>"; };
+		E09E15401A403DFF001DE175 /* RMBTRAMMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMBTRAMMonitor.h; sourceTree = "<group>"; };
+		E09E15411A403E43001DE175 /* RMBTRAMMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMBTRAMMonitor.m; sourceTree = "<group>"; };
+		E09FE0491A444B37000089C5 /* NonOptionalGCDAsyncSocketDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NonOptionalGCDAsyncSocketDelegate.swift; sourceTree = "<group>"; };
+		E0A0DD6719D5B327003F87E1 /* RMBTHistoryIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTHistoryIndexViewController.swift; sourceTree = "<group>"; };
+		E0A76E7B19D178C100BE4029 /* UIView+Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Position.swift"; sourceTree = "<group>"; };
+		E0A76E7F19D1A0AA00BE4029 /* RMBTInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTInfoViewController.swift; sourceTree = "<group>"; };
+		E0B2BE971A6D337F00136212 /* QOSHTTPProxyTestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSHTTPProxyTestExecutor.swift; sourceTree = "<group>"; };
+		E0B2BECD1A6E7CE200136212 /* StringMD5Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringMD5Extension.swift; sourceTree = "<group>"; };
+		E0B2BECF1A6E8A6200136212 /* SwiftExactTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftExactTime.swift; sourceTree = "<group>"; };
+		E0B2BED11A6E9D0400136212 /* RMBTJSONHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTJSONHelper.swift; sourceTree = "<group>"; };
+		E0B2BED31A6EAAC400136212 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E0B2BED51A6EAEC400136212 /* QOSWebsiteTestExecutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSWebsiteTestExecutor.swift; sourceTree = "<group>"; };
+		E0B2BED81A6EBA6100136212 /* WebViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewDelegate.swift; sourceTree = "<group>"; };
+		E0C6A0C819CB045E00E6B04F /* RMBT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMBT-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0C6A0C919CB045E00E6B04F /* RMBTInfoTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTInfoTextViewController.swift; sourceTree = "<group>"; };
+		E0C6A0CD19CB181900E6B04F /* RMBTHistoryResultDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTHistoryResultDetailsViewController.swift; sourceTree = "<group>"; };
+		E0C6A0CF19CB215E00E6B04F /* RMBTTOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTTOS.swift; sourceTree = "<group>"; };
+		E0D553D81A9B2BE100CF2DA7 /* MapViewHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewHolder.swift; sourceTree = "<group>"; };
+		E0D553EF1A9C66D800CF2DA7 /* ConnectivityServiceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityServiceDelegate.swift; sourceTree = "<group>"; };
+		E0D553F11A9DDB6800CF2DA7 /* UDPStreamReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPStreamReceiver.swift; sourceTree = "<group>"; };
+		E0D553F31A9DE84000CF2DA7 /* UDPStreamReceiverDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPStreamReceiverDelegate.swift; sourceTree = "<group>"; };
+		E0D553F51A9E025000CF2DA7 /* AtomicBoolean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomicBoolean.swift; sourceTree = "<group>"; };
+		E0D839531BE2508E00CD2BC8 /* OrderedDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderedDictionary.swift; sourceTree = "<group>"; };
+		E0D839551BE2528300CD2BC8 /* RMBTSpeedGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTSpeedGraphView.swift; sourceTree = "<group>"; };
+		E0DADD981A8C986000E0E094 /* CountDownLatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDownLatch.swift; sourceTree = "<group>"; };
+		E0DADD9A1A8CB7F400E0E094 /* ConversionUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionUtility.swift; sourceTree = "<group>"; };
+		E0E382EB1B8387C7009D7931 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/iPhoneMain.strings; sourceTree = "<group>"; };
+		E0E382EC1B8387CA009D7931 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/iPhoneMain.strings; sourceTree = "<group>"; };
+		E0E8565F19D1B68500BAAFD2 /* RMBTHistoryResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTHistoryResultViewController.swift; sourceTree = "<group>"; };
+		E0E8566119D2ABE600BAAFD2 /* RMBTHistoryResultItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTHistoryResultItemCell.swift; sourceTree = "<group>"; };
+		E0E8566319D2B43500BAAFD2 /* RMBTHistoryIndexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTHistoryIndexCell.swift; sourceTree = "<group>"; };
+		E0E8566519D2B69B00BAAFD2 /* UITableViewCell+RMBTHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+RMBTHeight.swift"; sourceTree = "<group>"; };
+		E0E8566719D2BA8400BAAFD2 /* CLLocation+RMBTFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+RMBTFormat.swift"; sourceTree = "<group>"; };
+		E0E8566919D2C33300BAAFD2 /* RMBTVerticalTransitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTVerticalTransitionController.swift; sourceTree = "<group>"; };
+		E0E8566D19D2E62500BAAFD2 /* RMBTMapCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTMapCalloutView.swift; sourceTree = "<group>"; };
+		E0E8567419D3FEF200BAAFD2 /* RMBTHistoryFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTHistoryFilterViewController.swift; sourceTree = "<group>"; };
+		E0EA2CBE1A7F7A68000A916E /* ConnectivityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityService.swift; sourceTree = "<group>"; };
+		E0EC56731A84D7B000D04214 /* PingUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PingUtil.h; sourceTree = "<group>"; };
+		E0EC56741A84D7C100D04214 /* PingUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingUtil.m; sourceTree = "<group>"; };
+		E0EC56761A84EF9100D04214 /* NSString+IPAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+IPAddress.h"; sourceTree = "<group>"; };
+		E0EC56771A84EFC800D04214 /* NSString+IPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IPAddress.m"; sourceTree = "<group>"; };
+		E0F1CD6419D02B9700F63937 /* RMBTMapOptionsFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMBTMapOptionsFilterViewController.swift; sourceTree = "<group>"; };
+		E0FA5AAC1AE7A293009DE36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0FA5AB01AE7A2E1009DE36A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0FA5AB11AE7A2E4009DE36A /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7DE1475173E8F610079477A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E062B58C1AAEF84A005234FB /* libresolv.dylib in Frameworks */,
+				C7F08F6A1769F37700741844 /* CoreTelephony.framework in Frameworks */,
+				C5DEB486176364E400187C94 /* OpenGLES.framework in Frameworks */,
+				C5DEB484176364DF00187C94 /* libz.dylib in Frameworks */,
+				C5DEB482176364D900187C94 /* libicucore.dylib in Frameworks */,
+				C5DEB480176364D500187C94 /* libc++.dylib in Frameworks */,
+				C5DEB47E176364CE00187C94 /* ImageIO.framework in Frameworks */,
+				C5DEB47C176364C900187C94 /* GLKit.framework in Frameworks */,
+				C5DEB47A176364C300187C94 /* CoreText.framework in Frameworks */,
+				C5DEB478176364BC00187C94 /* CoreData.framework in Frameworks */,
+				C5DEB476176364B100187C94 /* AVFoundation.framework in Frameworks */,
+				C573F2B1175294A500C728FC /* CoreLocation.framework in Frameworks */,
+				C779E9E917403364003874AB /* QuartzCore.framework in Frameworks */,
+				C7916EB9173EB68200B40152 /* MobileCoreServices.framework in Frameworks */,
+				C7916EB7173EB65F00B40152 /* SystemConfiguration.framework in Frameworks */,
+				C7DE147C173E8F610079477A /* UIKit.framework in Frameworks */,
+				C7DE147E173E8F610079477A /* Foundation.framework in Frameworks */,
+				C7DE1480173E8F610079477A /* CoreGraphics.framework in Frameworks */,
+				F74A0064B94F492FB6A6BC06 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		331927ED1A6FD037004D88B6 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				3356DE6D1A89FC4A007A0CC9 /* Common */,
+				33AD9A1A1A70FC2C00E2FFEA /* Location */,
+				33AD9A191A70FC2000E2FFEA /* Traffic */,
+				33AD9A181A70FC1500E2FFEA /* Protocol */,
+				33AD9A171A70FC0100E2FFEA /* Hardware */,
+			);
+			name = SubViews;
+			sourceTree = "<group>";
+		};
+		33220F061A6D4428009FED5D /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				33220F071A6D4453009FED5D /* RMBTHelpViewController.swift */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		3356DE6B1A89FB78007A0CC9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				33C43D751A84CD5300716A72 /* RMBTQoS_Result_TableViewCell.swift */,
+				E0E8566119D2ABE600BAAFD2 /* RMBTHistoryResultItemCell.swift */,
+				33391C611A77D36C00CDF415 /* RMBTHistoryItemCell.swift */,
+				3356DE711A8A0E44007A0CC9 /* RMBTQoS_Menu_TableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3356DE6C1A89FC03007A0CC9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				33CE7DF41A7A206D0091B09D /* RMBTTestTableViewCell_M.swift */,
+				33CE7DF61A7A20A70091B09D /* RMBTTestTableViewCell_H.swift */,
+				33CE7DF81A7A3D180091B09D /* RMBTTestTableViewCell_Q.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3356DE6D1A89FC4A007A0CC9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3356DE6E1A89FC84007A0CC9 /* PopUp cell */,
+				337C93F21A695F7D002F438E /* RMBTPopupViewButton.swift */,
+				331927F21A6FD5CC004D88B6 /* RMBTPopupContentView.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		3356DE6E1A89FC84007A0CC9 /* PopUp cell */ = {
+			isa = PBXGroup;
+			children = (
+				33AD9A1D1A70FCE600E2FFEA /* RMBTPUTableViewCell.swift */,
+			);
+			name = "PopUp cell";
+			sourceTree = "<group>";
+		};
+		3368026F1A66663F001081EF /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E046AB3C1A80F4BC0063AAB0 /* LogConfig.swift */,
+				E0221EE21A7FAB2900C42CC6 /* RMBTConfig.h */,
+				336802721A66760A001081EF /* RMBTConfig.swift */,
+				E07F89561A84B1B400478171 /* QOSConfig.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		336802BA1A67C1FE001081EF /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				336802BB1A67C20F001081EF /* SWRevealViewController.h */,
+				336802BC1A67C20F001081EF /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		3377EC411A8B5C1700A4C937 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3356E2CE1A8E2A7D005EBE25 /* RMBTQoSDetailsTestParamsTVCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		337C93F11A695D8B002F438E /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				338B97791AA0733900AADE67 /* RMBT_ProgressView.swift */,
+				E046EDBA1AC59FF600EBB656 /* RMBTUITrafficView.swift */,
+				E046EDB81AC59CC900EBB656 /* RMBTUICheckmarkView.swift */,
+				E05D5A231AD6B396002E4336 /* RMBTUICrossView.swift */,
+			);
+			name = UIComponents;
+			sourceTree = "<group>";
+		};
+		33AD9A171A70FC0100E2FFEA /* Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				331927DF1A6E882C004D88B6 /* RMBTPUHardwareView.swift */,
+			);
+			name = Hardware;
+			sourceTree = "<group>";
+		};
+		33AD9A181A70FC1500E2FFEA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				331927E31A6EB681004D88B6 /* RMBTPUProtocolView.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		33AD9A191A70FC2000E2FFEA /* Traffic */ = {
+			isa = PBXGroup;
+			children = (
+				331927E91A6FCE99004D88B6 /* RMBTPUTrafficView.swift */,
+			);
+			name = Traffic;
+			sourceTree = "<group>";
+		};
+		33AD9A1A1A70FC2C00E2FFEA /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				331927EE1A6FD07F004D88B6 /* RMBTPULocationView.swift */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		8A85CBA1C51E9E47CC5F1681 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A84CB5C60898B4EDE31AF006 /* Pods.debug.xcconfig */,
+				BC9673417C1CC5C30595E526 /* Pods-IntegrationTests.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B11D9B101A6978A8009C2279 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				B11D9B111A6978C7009C2279 /* QualityOfServiceTest.swift */,
+				B11D9B131A6978EC009C2279 /* QualityOfServiceTestDelegate.swift */,
+				E01756371A8B4F500017C08E /* QOSFactory.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		B14653581A69C82B000D422A /* Specific */ = {
+			isa = PBXGroup;
+			children = (
+				E0B2BE971A6D337F00136212 /* QOSHTTPProxyTestExecutor.swift */,
+				E09E15301A3F0CB4001DE175 /* QOSNonTransparentProxyTestExecutor.swift */,
+				E0B2BED51A6EAEC400136212 /* QOSWebsiteTestExecutor.swift */,
+				B114A44F1A7A00AC008F6EF9 /* QOSDNSTestExecutor.swift */,
+				E0776E901A370F490076531B /* QOSTCPTestExecutor.swift */,
+				B114A4531A7A02BD008F6EF9 /* QOSUDPTestExecutor.swift */,
+				B114A4571A7A0441008F6EF9 /* QOSVOIPTestExecutor.swift */,
+				E075F0281A7272DA00B86462 /* QOSTracerouteTestExecutor.swift */,
+			);
+			name = Specific;
+			sourceTree = "<group>";
+		};
+		B157E0AC1AD174AF004AE06D /* QOS */ = {
+			isa = PBXGroup;
+			children = (
+				3377EC411A8B5C1700A4C937 /* Cell */,
+				3377EC3C1A8B570B00A4C937 /* RMBTQoSDetailVC.swift */,
+				3377EC3E1A8B587D00A4C937 /* RMBTQoSTestDetailVC.swift */,
+				33C43D731A84C8BE00716A72 /* RMBTQoSViewController.swift */,
+			);
+			name = QOS;
+			sourceTree = "<group>";
+		};
+		C5DEB48B1763A0A800187C94 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				C7228DF017FC1CB100FB984D /* Callout */,
+				C7C5B54E17E887040035D752 /* Models */,
+				E046EDC71AC972FB00EBB656 /* RMBTMapViewController.swift */,
+				B18309CC1AC9B9700087407E /* RMBTMapSubViewController.swift */,
+				E0207CED19CC5F470045824C /* RMBTMapOptionsViewController.swift */,
+				E0F1CD6419D02B9700F63937 /* RMBTMapOptionsFilterViewController.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		C7228DF017FC1CB100FB984D /* Callout */ = {
+			isa = PBXGroup;
+			children = (
+				E0E8566D19D2E62500BAAFD2 /* RMBTMapCalloutView.swift */,
+			);
+			name = Callout;
+			sourceTree = "<group>";
+		};
+		C73E792417673EA40009855E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				C73E792517673EBE0009855E /* RMBTSettings.h */,
+				C73E792617673EBE0009855E /* RMBTSettings.m */,
+				C73E7928176761630009855E /* RMBTSettingsViewController.h */,
+				C73E7929176761630009855E /* RMBTSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		C750D9EC17E8B29E0028969E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0C6A0CF19CB215E00E6B04F /* RMBTTOS.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C750D9ED17E8B2BC0028969E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E046EDC91ACA89A000EBB656 /* RMBTHistoryResult.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C75A1186179B12C800E2444F /* TOS */ = {
+			isa = PBXGroup;
+			children = (
+				C750D9EC17E8B29E0028969E /* Models */,
+				E08B41ED19D05E04000DE732 /* RMBTTOSViewController.swift */,
+				E06AADD31B836CF200C96FDD /* RMBTTOSPublishPersonalDataViewController.swift */,
+			);
+			name = TOS;
+			sourceTree = "<group>";
+		};
+		C75A11A1179B66F100E2444F /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				E0A0DD6719D5B327003F87E1 /* RMBTHistoryIndexViewController.swift */,
+				E0E8566319D2B43500BAAFD2 /* RMBTHistoryIndexCell.swift */,
+				E0E8567419D3FEF200BAAFD2 /* RMBTHistoryFilterViewController.swift */,
+			);
+			name = Index;
+			sourceTree = "<group>";
+		};
+		C75A11A2179B66F700E2444F /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B157E0AC1AD174AF004AE06D /* QOS */,
+				3356DE6B1A89FB78007A0CC9 /* Cells */,
+				E0E8565F19D1B68500BAAFD2 /* RMBTHistoryResultViewController.swift */,
+			);
+			name = Result;
+			sourceTree = "<group>";
+		};
+		C75A11A3179B66FC00E2444F /* Full Details */ = {
+			isa = PBXGroup;
+			children = (
+				E0C6A0CD19CB181900E6B04F /* RMBTHistoryResultDetailsViewController.swift */,
+			);
+			name = "Full Details";
+			sourceTree = "<group>";
+		};
+		C774EE7B1792FA3700D623A3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E01A0C8B1A88C8810090F738 /* RMBTBlockTypes.h */,
+				E0207CE119CC1FE50045824C /* RMBTNews.swift */,
+				C59D7B451764E6CF003E9702 /* RMBTHelpers.h */,
+				C59D7B461764E6CF003E9702 /* RMBTHelpers.m */,
+				E046EDCC1ACD7D5B00EBB656 /* TemporaryRMBTHelpers.swift */,
+				E0207CE319CC24510045824C /* RMBTLocationTracker.swift */,
+				E046AB401A8245C00063AAB0 /* ControlServer.swift */,
+				E0EA2CBE1A7F7A68000A916E /* ConnectivityService.swift */,
+				E0D553EF1A9C66D800CF2DA7 /* ConnectivityServiceDelegate.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		C774EE7C1793674200D623A3 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				C750D9ED17E8B2BC0028969E /* Models */,
+				C75A11A1179B66F100E2444F /* Index */,
+				C75A11A2179B66F700E2444F /* Result */,
+				C75A11A3179B66FC00E2444F /* Full Details */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		C774EE91179382F200D623A3 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3356DE6C1A89FC03007A0CC9 /* Cells */,
+				C7ECD90C174DAECD000DF966 /* Models */,
+				E0207CEB19CC56BE0045824C /* RMBTGaugeView.swift */,
+				334A0D371A80C4820091B983 /* RMBTTesterViewController.swift */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		C7770886179987A000BB478B /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				E0A76E7F19D1A0AA00BE4029 /* RMBTInfoViewController.swift */,
+				E0C6A0C919CB045E00E6B04F /* RMBTInfoTextViewController.swift */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		C7916E9A173E90DB00B40152 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C70C178B17D7BFC400F55964 /* Images.xcassets */,
+				E06955F51AC3FC88000A2C8D /* Interface */,
+				E069559E1AC3F292000A2C8D /* terms_conditions_long.html */,
+				E06AADD51B836F1A00C96FDD /* publish_personal_data_text.html */,
+				E06955A61AC3F2D3000A2C8D /* Localizable.strings */,
+				C7916EAA173E945E00B40152 /* RMBT-Info.plist */,
+				E0FA5AAD1AE7A293009DE36A /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7946870175FF1B000B0DECD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E0D839551BE2528300CD2BC8 /* RMBTSpeedGraphView.swift */,
+				E0207CDF19CC1E020045824C /* UIViewController+ModalBrowser.swift */,
+				E0E8566919D2C33300BAAFD2 /* RMBTVerticalTransitionController.swift */,
+				E082C9DC1A8A4332002E0691 /* SharedKeychain.swift */,
+				E00E88D81AC5808000695C0A /* UIDeviceHardware.swift */,
+				E0A76E7B19D178C100BE4029 /* UIView+Position.swift */,
+				E0E8566719D2BA8400BAAFD2 /* CLLocation+RMBTFormat.swift */,
+				B10536771ABC8F2C008DC77A /* UIColor+Hex.swift */,
+				E0E8566519D2B69B00BAAFD2 /* UITableViewCell+RMBTHeight.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		C7B15A35180AA99B0097676F /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				3306250E1A84A04A009A49E2 /* RMBTStatisticsViewController.swift */,
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		C7B47F87176CD47600B04ABF /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				C7CC5560176CEAF300861605 /* Shared.xcconfig */,
+				C7C0EFE3176CD18F003758AA /* Debug.xcconfig */,
+				E02FAB831A92098E000C75C1 /* Beta.xcconfig */,
+				E02FAB811A91DB8F000C75C1 /* Release.xcconfig */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		C7C5B54E17E887040035D752 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E046EDC31AC936E700EBB656 /* RMBTMapServer.swift */,
+				E046EDC11AC9330600EBB656 /* RMBTMapMeasurement.swift */,
+				E046EDC51AC949C500EBB656 /* RMBTMapOptions.swift */,
+				E0D553D81A9B2BE100CF2DA7 /* MapViewHolder.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C7DE146F173E8F610079477A = {
+			isa = PBXGroup;
+			children = (
+				C7B47F87176CD47600B04ABF /* Configurations */,
+				C7DE1481173E8F610079477A /* Sources */,
+				C7916E9A173E90DB00B40152 /* Resources */,
+				E04360AC1A38671A004E0D84 /* Vendor */,
+				C7DE147A173E8F610079477A /* Frameworks */,
+				C7DE1479173E8F610079477A /* Products */,
+				8A85CBA1C51E9E47CC5F1681 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C7DE1479173E8F610079477A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7DE1478173E8F610079477A /* RMBT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7DE147A173E8F610079477A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E062B58B1AAEF84A005234FB /* libresolv.dylib */,
+				C7F08F691769F37600741844 /* CoreTelephony.framework */,
+				C5DEB485176364E400187C94 /* OpenGLES.framework */,
+				C5DEB483176364DF00187C94 /* libz.dylib */,
+				C5DEB481176364D900187C94 /* libicucore.dylib */,
+				C5DEB47F176364D500187C94 /* libc++.dylib */,
+				C5DEB47D176364CE00187C94 /* ImageIO.framework */,
+				C5DEB47B176364C900187C94 /* GLKit.framework */,
+				C5DEB479176364C300187C94 /* CoreText.framework */,
+				C5DEB477176364BC00187C94 /* CoreData.framework */,
+				C5DEB475176364B100187C94 /* AVFoundation.framework */,
+				C573F2B0175294A500C728FC /* CoreLocation.framework */,
+				C573F2A4175281D300C728FC /* MapKit.framework */,
+				C779E9E817403364003874AB /* QuartzCore.framework */,
+				C7916EB8173EB68200B40152 /* MobileCoreServices.framework */,
+				C7916EB6173EB65F00B40152 /* SystemConfiguration.framework */,
+				C7DE147B173E8F610079477A /* UIKit.framework */,
+				C7DE147D173E8F610079477A /* Foundation.framework */,
+				C7DE147F173E8F610079477A /* CoreGraphics.framework */,
+				D4A8E3D648BB433FACE84120 /* libPods.a */,
+				89CA4DFAF361F6C4C3743E8B /* libPods-IntegrationTests.a */,
+			);
+			name = Frameworks;
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		C7DE1481173E8F610079477A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECD90A174DAE92000DF966 /* App */,
+				C7DE1482173E8F610079477A /* Supporting Files */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C7DE1482173E8F610079477A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0C6A0C819CB045E00E6B04F /* RMBT-Bridging-Header.h */,
+				C7DE1489173E8F610079477A /* RMBT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7E5817218075B3400706848 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				E046AB391A80F3400063AAB0 /* Helper */,
+				331927ED1A6FD037004D88B6 /* SubViews */,
+				3368027B1A66C1C1001081EF /* RMBTInitialViewController.swift */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		C7ECD90A174DAE92000DF966 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E0207CE619CC34D40045824C /* RMBTAppDelegate.swift */,
+				C774EE7B1792FA3700D623A3 /* Shared */,
+				C7946870175FF1B000B0DECD /* Utility */,
+				3368026F1A66663F001081EF /* Config */,
+				337C93F11A695D8B002F438E /* UIComponents */,
+				E062BBA61A31EF0600F94568 /* QOS */,
+				C75A1186179B12C800E2444F /* TOS */,
+				C7E5817218075B3400706848 /* Intro */,
+				C774EE91179382F200D623A3 /* Test */,
+				C5DEB48B1763A0A800187C94 /* Map */,
+				C774EE7C1793674200D623A3 /* History */,
+				C7B15A35180AA99B0097676F /* Statistics */,
+				33220F061A6D4428009FED5D /* Help */,
+				C73E792417673EA40009855E /* Settings */,
+				C7770886179987A000BB478B /* Info */,
+				336802791A66C159001081EF /* RMBTSideMenuController.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		C7ECD90C174DAECD000DF966 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C7ECD90D174DB042000DF966 /* RMBTTestRunner.h */,
+				C7ECD90E174DB042000DF966 /* RMBTTestRunner.m */,
+				C7EBA1A6173FE4A40055F578 /* RMBTTestWorker.h */,
+				C7EBA1A7173FE4A40055F578 /* RMBTTestWorker.m */,
+				E046EDBD1AC5B0FA00EBB656 /* RMBTSSLHelper.swift */,
+				C79401EF17FAE2EF00484B8A /* RMBTNetworkType.h */,
+				C774EE7517920C9C00D623A3 /* RMBTConnectivity.h */,
+				C774EE7617920C9C00D623A3 /* RMBTConnectivity.m */,
+				C7978FD517F1D07100BF986C /* RMBTConnectivityTracker.h */,
+				C7978FD617F1D07100BF986C /* RMBTConnectivityTracker.m */,
+				E046EDBF1AC5B48000EBB656 /* RMBTTestParams.swift */,
+				B16A65AB1ACEDDB200DFA819 /* RMBTTestResult.swift */,
+				B1C9CC2D1AC883F0004E6ACD /* RMBTThroughput.swift */,
+				B19AFDAF1ACAFBF9000E51DF /* RMBTThroughputHistory.swift */,
+				E046EDCE1ACD86A200EBB656 /* RMBTSpeed_Temporary.swift */,
+				B15E34451AC72DB900DCF268 /* RMBTPing.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E03955191AA080DE00369A08 /* UDP */ = {
+			isa = PBXGroup;
+			children = (
+				E0D553F11A9DDB6800CF2DA7 /* UDPStreamReceiver.swift */,
+				E0D553F31A9DE84000CF2DA7 /* UDPStreamReceiverDelegate.swift */,
+				E039551A1AA080F400369A08 /* UDPStreamSender.swift */,
+				E039551C1AA0811300369A08 /* UDPStreamSenderDelegate.swift */,
+			);
+			name = UDP;
+			sourceTree = "<group>";
+		};
+		E04360AC1A38671A004E0D84 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				E0D839531BE2508E00CD2BC8 /* OrderedDictionary.swift */,
+				336802BA1A67C1FE001081EF /* SWRevealViewController */,
+				E04360B11A386966004E0D84 /* XCGLogger */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		E04360B11A386966004E0D84 /* XCGLogger */ = {
+			isa = PBXGroup;
+			children = (
+				E04360B31A386966004E0D84 /* iOS */,
+				E04360BA1A386966004E0D84 /* XCGLogger.swift */,
+			);
+			path = XCGLogger;
+			sourceTree = "<group>";
+		};
+		E04360B31A386966004E0D84 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E04360B41A386966004E0D84 /* XCGLogger.h */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E046AB391A80F3400063AAB0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E09E153D1A403D33001DE175 /* RMBTCPUMonitor.h */,
+				E09E153E1A403D76001DE175 /* RMBTCPUMonitor.m */,
+				E09E15401A403DFF001DE175 /* RMBTRAMMonitor.h */,
+				E09E15411A403E43001DE175 /* RMBTRAMMonitor.m */,
+				E09E153C1A40271C001DE175 /* RMBTTrafficCounter.h */,
+				E09E153A1A402703001DE175 /* RMBTTrafficCounter.m */,
+				E046AB3A1A80F3870063AAB0 /* TrafficClassification.swift */,
+				E0221EDE1A7FA93B00C42CC6 /* WalledGardenTest.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		E046AB3E1A82214F0063AAB0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E062B5721AAEF227005234FB /* DNS */,
+				E03955191AA080DE00369A08 /* UDP */,
+				E0B2BED71A6EBA4300136212 /* WebViewUtils */,
+				E062B58F1AB1EF06005234FB /* VOIP */,
+				E046AB3F1A8221570063AAB0 /* Traceroute */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		E046AB3F1A8221570063AAB0 /* Traceroute */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC56731A84D7B000D04214 /* PingUtil.h */,
+				E0EC56741A84D7C100D04214 /* PingUtil.m */,
+				E0EC56761A84EF9100D04214 /* NSString+IPAddress.h */,
+				E0EC56771A84EFC800D04214 /* NSString+IPAddress.m */,
+				E01A0C8C1A88CA810090F738 /* PingUtilSwiftDelegate.swift */,
+				E01A0C8E1A88DC000090F738 /* PingUtilDelegateBridge.swift */,
+				E08EA33E1A936E7500E2B493 /* HopDetail.swift */,
+			);
+			name = Traceroute;
+			sourceTree = "<group>";
+		};
+		E062B5721AAEF227005234FB /* DNS */ = {
+			isa = PBXGroup;
+			children = (
+				E062B57C1AAEF6F1005234FB /* DNSClient.swift */,
+				E062B57D1AAEF6F1005234FB /* DNSHeader.swift */,
+				E062B57E1AAEF6F1005234FB /* DNSQuestion.swift */,
+				E062B57F1AAEF6F1005234FB /* DNSRecordClass.swift */,
+				E062B5801AAEF6F1005234FB /* DNSResourceRecord.swift */,
+				E062B5891AAEF77C005234FB /* ServiceTypeMapping.swift */,
+				E062B5811AAEF6F1005234FB /* GetDNSIP.h */,
+				E062B5821AAEF6F1005234FB /* GetDNSIP.m */,
+			);
+			name = DNS;
+			sourceTree = "<group>";
+		};
+		E062B58F1AB1EF06005234FB /* VOIP */ = {
+			isa = PBXGroup;
+			children = (
+				E062B5901AB1EF1F005234FB /* RTPPacket.swift */,
+				E062B59D1AB8306D005234FB /* RTPControlData.swift */,
+				E062B5A11AB83794005234FB /* RTPSequence.swift */,
+				E062B59F1AB833C2005234FB /* RTPResult.swift */,
+			);
+			name = VOIP;
+			sourceTree = "<group>";
+		};
+		E062BBA61A31EF0600F94568 /* QOS */ = {
+			isa = PBXGroup;
+			children = (
+				E0B2BECC1A6E7CD100136212 /* Utility */,
+				B11D9B101A6978A8009C2279 /* General */,
+				E062BBA71A31EF1100F94568 /* Model */,
+				E062BBBE1A32117D00F94568 /* Executor */,
+				E0776E8B1A3704BD0076531B /* Connection */,
+			);
+			name = QOS;
+			sourceTree = "<group>";
+		};
+		E062BBA71A31EF1100F94568 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0776E971A373DF20076531B /* General */,
+				E0776E941A3715E80076531B /* Result */,
+				E062BBAC1A31FE7900F94568 /* QOSHTTPProxyTest.swift */,
+				E062BBB21A31FEEF00F94568 /* QOSNonTransparentProxyTest.swift */,
+				E062BBB41A31FF0D00F94568 /* QOSWebsiteTest.swift */,
+				E062BBB61A31FF2B00F94568 /* QOSDNSTest.swift */,
+				E062BBAE1A31FEA800F94568 /* QOSTCPTest.swift */,
+				E062BBB01A31FED100F94568 /* QOSUDPTest.swift */,
+				E062BBB81A31FF4200F94568 /* QOSVOIPTest.swift */,
+				E062BBBC1A32007100F94568 /* QOSTracerouteTest.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E062BBBE1A32117D00F94568 /* Executor */ = {
+			isa = PBXGroup;
+			children = (
+				E046AB3E1A82214F0063AAB0 /* Helper */,
+				E09FE0C81A66A1B9000089C5 /* AsyncSocketBugfix */,
+				B14653581A69C82B000D422A /* Specific */,
+				E062BBBF1A32118F00F94568 /* QOSTestExecutorProtocol.swift */,
+				E05750331A43093F00C6D558 /* QOSTestExecutorClass.swift */,
+			);
+			name = Executor;
+			sourceTree = "<group>";
+		};
+		E06955F51AC3FC88000A2C8D /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				E08E9D5C1B8377180093C40C /* iPhoneMain.storyboard */,
+				E06955F61AC3FC9B000A2C8D /* Initial Screen */,
+				E06955F71AC3FCBF000A2C8D /* Test */,
+				E06955F81AC3FCC5000A2C8D /* History */,
+				E06955F91AC3FCCB000A2C8D /* Map */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		E06955F61AC3FC9B000A2C8D /* Initial Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B108FE861AD7F663007582F9 /* RMBTPUTrafficView.xib */,
+				E06955CA1AC3F3CD000A2C8D /* RMBTPULocationView.xib */,
+				E05AD2361AD5214900867B4E /* RMBTPUHardwareView.xib */,
+				E06955DE1AC3F44F000A2C8D /* RMBTPUProtocolView.xib */,
+				E06955DF1AC3F44F000A2C8D /* RMBTPUTableViewCell.xib */,
+			);
+			name = "Initial Screen";
+			sourceTree = "<group>";
+		};
+		E06955F71AC3FCBF000A2C8D /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E06955DA1AC3F44F000A2C8D /* RBMTTestTableViewCell_Q.xib */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		E06955F81AC3FCC5000A2C8D /* History */ = {
+			isa = PBXGroup;
+			children = (
+				E06955DB1AC3F44F000A2C8D /* RMBTHistoryItemCell.xib */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		E06955F91AC3FCCB000A2C8D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E06955DC1AC3F44F000A2C8D /* RMBTMapCalloutView.xib */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		E0776E8B1A3704BD0076531B /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				E0776E9A1A384E610076531B /* Utility */,
+				E0776E8C1A3704CD0076531B /* QOSControlConnection.swift */,
+				E0776E921A37135F0076531B /* QOSControlConnectionDelegate.swift */,
+				E0776E981A384D610076531B /* QOSControlConnectionTaskDelegate.swift */,
+			);
+			name = Connection;
+			sourceTree = "<group>";
+		};
+		E0776E941A3715E80076531B /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				E0776E951A3715F40076531B /* QOSTestResult.swift */,
+			);
+			name = Result;
+			sourceTree = "<group>";
+		};
+		E0776E971A373DF20076531B /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E062BBAA1A31FB5A00F94568 /* QOSTestType.swift */,
+				E04360C11A388461004E0D84 /* QOSTypeDefinition.swift */,
+				E062BBA81A31EF1F00F94568 /* QOSTest.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		E0776E9A1A384E610076531B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E0776E8E1A3709540076531B /* SocketUtils.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		E09FE0C81A66A1B9000089C5 /* AsyncSocketBugfix */ = {
+			isa = PBXGroup;
+			children = (
+				E0221EDD1A7FA93B00C42CC6 /* NonOptionalGCDAsyncSocketDelegateImpl.swift */,
+				E09FE0491A444B37000089C5 /* NonOptionalGCDAsyncSocketDelegate.swift */,
+				E082C9E01A8B4991002E0691 /* NonOptionalGCDAsyncUdpSocketDelegate.swift */,
+				E082C9DE1A8B4826002E0691 /* NonOptionalGCDAsyncUdpSocketDelegateImpl.swift */,
+			);
+			name = AsyncSocketBugfix;
+			sourceTree = "<group>";
+		};
+		E0B2BECC1A6E7CD100136212 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E0DADD9C1A8CB96600E0E094 /* Concurrency */,
+				E0B2BECD1A6E7CE200136212 /* StringMD5Extension.swift */,
+				E0B2BECF1A6E8A6200136212 /* SwiftExactTime.swift */,
+				E0B2BED11A6E9D0400136212 /* RMBTJSONHelper.swift */,
+				E0B2BED31A6EAAC400136212 /* String+Extensions.swift */,
+				E0DADD9A1A8CB7F400E0E094 /* ConversionUtility.swift */,
+				E062B5921AB1F2F2005234FB /* NSData+Extensions.swift */,
+				E062B59A1AB3285C005234FB /* UInt+Extensions.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		E0B2BED71A6EBA4300136212 /* WebViewUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E0B2BED81A6EBA6100136212 /* WebViewDelegate.swift */,
+			);
+			name = WebViewUtils;
+			sourceTree = "<group>";
+		};
+		E0DADD9C1A8CB96600E0E094 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				B14959811A8944A60085539C /* GCDTimer.swift */,
+				E0DADD981A8C986000E0E094 /* CountDownLatch.swift */,
+				E0D553F51A9E025000CF2DA7 /* AtomicBoolean.swift */,
+			);
+			name = Concurrency;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7DE1477173E8F610079477A /* RMBT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7DE149E173E8F610079477A /* Build configuration list for PBXNativeTarget "RMBT" */;
+			buildPhases = (
+				6C772892F8C34AB1ACA517A8 /* Check Pods Manifest.lock */,
+				C7DE1474173E8F610079477A /* Sources */,
+				C7DE1475173E8F610079477A /* Frameworks */,
+				C7DE1476173E8F610079477A /* Resources */,
+				6C28D5F376E34DCFB978448D /* Copy Pods Resources */,
+				C79401F017FB021000484B8A /* Run Script: Add Build Infos */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMBT;
+			productName = RMBT;
+			productReference = C7DE1478173E8F610079477A /* RMBT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7DE1470173E8F610079477A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RMBT;
+				LastTestingUpgradeCheck = 0600;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Specure GmbH";
+				TargetAttributes = {
+					C7DE1477173E8F610079477A = {
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C7DE1473173E8F610079477A /* Build configuration list for PBXProject "RMBT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				English,
+				de,
+				sl,
+				en,
+			);
+			mainGroup = C7DE146F173E8F610079477A;
+			productRefGroup = C7DE1479173E8F610079477A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7DE1477173E8F610079477A /* RMBT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7DE1476173E8F610079477A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08E9D5E1B8377180093C40C /* iPhoneMain.storyboard in Resources */,
+				B108FE831AD7F41B007582F9 /* RMBTPULocationView.xib in Resources */,
+				B108FE841AD7F41B007582F9 /* RMBTPUHardwareView.xib in Resources */,
+				E06955E41AC3F44F000A2C8D /* RMBTPUProtocolView.xib in Resources */,
+				E0FA5AAB1AE7A293009DE36A /* InfoPlist.strings in Resources */,
+				E0A0DD6219D5A917003F87E1 /* Images.xcassets in Resources */,
+				E06955A41AC3F2D3000A2C8D /* Localizable.strings in Resources */,
+				E06955E01AC3F44F000A2C8D /* RBMTTestTableViewCell_Q.xib in Resources */,
+				E06AADD71B836F1A00C96FDD /* publish_personal_data_text.html in Resources */,
+				E06955E11AC3F44F000A2C8D /* RMBTHistoryItemCell.xib in Resources */,
+				E069559C1AC3F292000A2C8D /* terms_conditions_long.html in Resources */,
+				E06955E21AC3F44F000A2C8D /* RMBTMapCalloutView.xib in Resources */,
+				B108FE881AD7F663007582F9 /* RMBTPUTrafficView.xib in Resources */,
+				E06955E51AC3F44F000A2C8D /* RMBTPUTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C28D5F376E34DCFB978448D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+		};
+		6C772892F8C34AB1ACA517A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		C79401F017FB021000484B8A /* Run Script: Add Build Infos */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script: Add Build Infos";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Scripts/add_build_infos.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7DE1474173E8F610079477A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E046EDCA1ACA89A000EBB656 /* RMBTHistoryResult.swift in Sources */,
+				E062B5931AB1F2F2005234FB /* NSData+Extensions.swift in Sources */,
+				B18309CD1AC9B9700087407E /* RMBTMapSubViewController.swift in Sources */,
+				E0F1CD6219D0238D00F63937 /* RMBTHistoryResultDetailsViewController.swift in Sources */,
+				B18309CF1AC9D8950087407E /* RMBTMapOptionsFilterViewController.swift in Sources */,
+				E04360C21A388461004E0D84 /* QOSTypeDefinition.swift in Sources */,
+				E062B58A1AAEF77C005234FB /* ServiceTypeMapping.swift in Sources */,
+				E0E8566819D2BA8400BAAFD2 /* CLLocation+RMBTFormat.swift in Sources */,
+				331927E41A6EB681004D88B6 /* RMBTPUProtocolView.swift in Sources */,
+				337C93F31A695F7D002F438E /* RMBTPopupViewButton.swift in Sources */,
+				E046EDCB1ACA98F800EBB656 /* RMBTHistoryIndexViewController.swift in Sources */,
+				E046EDBB1AC59FF600EBB656 /* RMBTUITrafficView.swift in Sources */,
+				E046EDC81AC972FB00EBB656 /* RMBTMapViewController.swift in Sources */,
+				E0B2BED61A6EAEC400136212 /* QOSWebsiteTestExecutor.swift in Sources */,
+				C7EBA1A8173FE4A50055F578 /* RMBTTestWorker.m in Sources */,
+				E01A0C901A88DC9D0090F738 /* PingUtil.m in Sources */,
+				33AD9A1F1A70FCE600E2FFEA /* RMBTPUTableViewCell.swift in Sources */,
+				33CE7DF71A7A20A70091B09D /* RMBTTestTableViewCell_H.swift in Sources */,
+				E0D839561BE2528300CD2BC8 /* RMBTSpeedGraphView.swift in Sources */,
+				E0D553F01A9C66D800CF2DA7 /* ConnectivityServiceDelegate.swift in Sources */,
+				E0E8566A19D2C33300BAAFD2 /* RMBTVerticalTransitionController.swift in Sources */,
+				E09E15311A3F0CB4001DE175 /* QOSNonTransparentProxyTestExecutor.swift in Sources */,
+				C7ECD90F174DB042000DF966 /* RMBTTestRunner.m in Sources */,
+				E08EA33F1A936E7500E2B493 /* HopDetail.swift in Sources */,
+				E0E8566219D2ABE600BAAFD2 /* RMBTHistoryResultItemCell.swift in Sources */,
+				E01A0C8F1A88DC000090F738 /* PingUtilDelegateBridge.swift in Sources */,
+				E00E88D91AC5808000695C0A /* UIDeviceHardware.swift in Sources */,
+				E0A76E7619D172BF00BE4029 /* UIViewController+ModalBrowser.swift in Sources */,
+				E046AB3B1A80F3870063AAB0 /* TrafficClassification.swift in Sources */,
+				E06AADD41B836CF200C96FDD /* RMBTTOSPublishPersonalDataViewController.swift in Sources */,
+				E0B2BECE1A6E7CE200136212 /* StringMD5Extension.swift in Sources */,
+				E062B5A01AB833C2005234FB /* RTPResult.swift in Sources */,
+				E062B5911AB1EF1F005234FB /* RTPPacket.swift in Sources */,
+				E0E8566419D2B43500BAAFD2 /* RMBTHistoryIndexCell.swift in Sources */,
+				331927F31A6FD5CC004D88B6 /* RMBTPopupContentView.swift in Sources */,
+				E062BBC01A32118F00F94568 /* QOSTestExecutorProtocol.swift in Sources */,
+				E062B5881AAEF6F1005234FB /* GetDNSIP.m in Sources */,
+				C59D7B471764E6CF003E9702 /* RMBTHelpers.m in Sources */,
+				E0A76E7C19D178C100BE4029 /* UIView+Position.swift in Sources */,
+				E0C6A0CA19CB045E00E6B04F /* RMBTInfoTextViewController.swift in Sources */,
+				E0D553F61A9E025000CF2DA7 /* AtomicBoolean.swift in Sources */,
+				B15E34441AC7248300DCF268 /* RMBTTestParams.swift in Sources */,
+				331927EF1A6FD07F004D88B6 /* RMBTPULocationView.swift in Sources */,
+				E062B5851AAEF6F1005234FB /* DNSQuestion.swift in Sources */,
+				336802BD1A67C20F001081EF /* SWRevealViewController.m in Sources */,
+				E01756381A8B4F500017C08E /* QOSFactory.swift in Sources */,
+				E062BBB11A31FED100F94568 /* QOSUDPTest.swift in Sources */,
+				E0207CE919CC3AAB0045824C /* RMBTAppDelegate.swift in Sources */,
+				E046EDBC1AC5A81400EBB656 /* RMBTGaugeView.swift in Sources */,
+				E062B59B1AB3285C005234FB /* UInt+Extensions.swift in Sources */,
+				E062BBA91A31EF1F00F94568 /* QOSTest.swift in Sources */,
+				C73E792717673EBE0009855E /* RMBTSettings.m in Sources */,
+				E082C9DF1A8B4826002E0691 /* NonOptionalGCDAsyncUdpSocketDelegateImpl.swift in Sources */,
+				B114A4541A7A02BD008F6EF9 /* QOSUDPTestExecutor.swift in Sources */,
+				E062B5831AAEF6F1005234FB /* DNSClient.swift in Sources */,
+				E082C9E11A8B4991002E0691 /* NonOptionalGCDAsyncUdpSocketDelegate.swift in Sources */,
+				E0B2BED41A6EAAC400136212 /* String+Extensions.swift in Sources */,
+				33CE7DF51A7A206D0091B09D /* RMBTTestTableViewCell_M.swift in Sources */,
+				E0EA2CBF1A7F7A68000A916E /* ConnectivityService.swift in Sources */,
+				B18309CE1AC9D09B0087407E /* RMBTMapOptionsViewController.swift in Sources */,
+				C73E792A176761630009855E /* RMBTSettingsViewController.m in Sources */,
+				E0D553F41A9DE84000CF2DA7 /* UDPStreamReceiverDelegate.swift in Sources */,
+				E07F89571A84B1B400478171 /* QOSConfig.swift in Sources */,
+				E075F0291A7272DA00B86462 /* QOSTracerouteTestExecutor.swift in Sources */,
+				E0221EE01A7FA93B00C42CC6 /* NonOptionalGCDAsyncSocketDelegateImpl.swift in Sources */,
+				E062BBAF1A31FEA800F94568 /* QOSTCPTest.swift in Sources */,
+				B114A4581A7A0441008F6EF9 /* QOSVOIPTestExecutor.swift in Sources */,
+				E0221EE11A7FA93B00C42CC6 /* WalledGardenTest.swift in Sources */,
+				E0EC56781A84EFC800D04214 /* NSString+IPAddress.m in Sources */,
+				E046EDCD1ACD7D5B00EBB656 /* TemporaryRMBTHelpers.swift in Sources */,
+				E01A0C911A88E9540090F738 /* PingUtilSwiftDelegate.swift in Sources */,
+				B1C9CC2E1AC883F0004E6ACD /* RMBTThroughput.swift in Sources */,
+				C774EE7717920C9C00D623A3 /* RMBTConnectivity.m in Sources */,
+				E062BBB51A31FF0D00F94568 /* QOSWebsiteTest.swift in Sources */,
+				E09E15421A403E43001DE175 /* RMBTRAMMonitor.m in Sources */,
+				E062B59E1AB8306D005234FB /* RTPControlData.swift in Sources */,
+				E0D839541BE2508E00CD2BC8 /* OrderedDictionary.swift in Sources */,
+				33220F081A6D4453009FED5D /* RMBTHelpViewController.swift in Sources */,
+				E0E8566619D2B69B00BAAFD2 /* UITableViewCell+RMBTHeight.swift in Sources */,
+				E062B5A21AB83794005234FB /* RTPSequence.swift in Sources */,
+				B11D9B141A6978EC009C2279 /* QualityOfServiceTestDelegate.swift in Sources */,
+				E046EDC61AC949C500EBB656 /* RMBTMapOptions.swift in Sources */,
+				E0207CE219CC1FE50045824C /* RMBTNews.swift in Sources */,
+				E046EDBE1AC5B0FA00EBB656 /* RMBTSSLHelper.swift in Sources */,
+				E0B2BED21A6E9D0400136212 /* RMBTJSONHelper.swift in Sources */,
+				E0E8566E19D2E62500BAAFD2 /* RMBTMapCalloutView.swift in Sources */,
+				E0AA94FE1A83C2A80041630F /* ControlServer.swift in Sources */,
+				E0776E931A37135F0076531B /* QOSControlConnectionDelegate.swift in Sources */,
+				3377EC3D1A8B570B00A4C937 /* RMBTQoSDetailVC.swift in Sources */,
+				E039551D1AA0811300369A08 /* UDPStreamSenderDelegate.swift in Sources */,
+				336802A71A67B43F001081EF /* RMBTSideMenuController.swift in Sources */,
+				3377EC3F1A8B587D00A4C937 /* RMBTQoSTestDetailVC.swift in Sources */,
+				E0DADD9B1A8CB7F400E0E094 /* ConversionUtility.swift in Sources */,
+				E062B5871AAEF6F1005234FB /* DNSResourceRecord.swift in Sources */,
+				336802731A66760A001081EF /* RMBTConfig.swift in Sources */,
+				33391C631A77D36C00CDF415 /* RMBTHistoryItemCell.swift in Sources */,
+				E046EDB91AC59CC900EBB656 /* RMBTUICheckmarkView.swift in Sources */,
+				B19AFDB31ACB0A24000E51DF /* RMBTStatisticsViewController.swift in Sources */,
+				B10536781ABC8F2C008DC77A /* UIColor+Hex.swift in Sources */,
+				E04360BF1A386966004E0D84 /* XCGLogger.swift in Sources */,
+				E062B5841AAEF6F1005234FB /* DNSHeader.swift in Sources */,
+				3356E2CF1A8E2A7D005EBE25 /* RMBTQoSDetailsTestParamsTVCell.swift in Sources */,
+				E046EDC41AC936E700EBB656 /* RMBTMapServer.swift in Sources */,
+				E0B2BED01A6E8A6200136212 /* SwiftExactTime.swift in Sources */,
+				E0C6A0D019CB215E00E6B04F /* RMBTTOS.swift in Sources */,
+				B11D9B121A6978C7009C2279 /* QualityOfServiceTest.swift in Sources */,
+				336802A81A67B441001081EF /* RMBTInitialViewController.swift in Sources */,
+				E0D553F21A9DDB6800CF2DA7 /* UDPStreamReceiver.swift in Sources */,
+				E0A76E8019D1A0AA00BE4029 /* RMBTInfoViewController.swift in Sources */,
+				E08B41EE19D05E04000DE732 /* RMBTTOSViewController.swift in Sources */,
+				E0776E991A384D610076531B /* QOSControlConnectionTaskDelegate.swift in Sources */,
+				E0D553D91A9B2BE100CF2DA7 /* MapViewHolder.swift in Sources */,
+				E062BBB71A31FF2B00F94568 /* QOSDNSTest.swift in Sources */,
+				E062BBB91A31FF4200F94568 /* QOSVOIPTest.swift in Sources */,
+				E062BBAD1A31FE7900F94568 /* QOSHTTPProxyTest.swift in Sources */,
+				E0B2BE981A6D337F00136212 /* QOSHTTPProxyTestExecutor.swift in Sources */,
+				E0776E8F1A3709540076531B /* SocketUtils.swift in Sources */,
+				E0EC90B61A96445000C66B3B /* RMBTHistoryFilterViewController.swift in Sources */,
+				E05D5A241AD6B396002E4336 /* RMBTUICrossView.swift in Sources */,
+				33C43D761A84CD5300716A72 /* RMBTQoS_Result_TableViewCell.swift in Sources */,
+				B114A4501A7A00AC008F6EF9 /* QOSDNSTestExecutor.swift in Sources */,
+				E0B2BED91A6EBA6100136212 /* WebViewDelegate.swift in Sources */,
+				B15E34461AC72DB900DCF268 /* RMBTPing.swift in Sources */,
+				33C43D741A84C8BE00716A72 /* RMBTQoSViewController.swift in Sources */,
+				E05D5A251AD6C196002E4336 /* RMBTTestResult.swift in Sources */,
+				E046EDCF1ACD86A200EBB656 /* RMBTSpeed_Temporary.swift in Sources */,
+				33CE7DF91A7A3D180091B09D /* RMBTTestTableViewCell_Q.swift in Sources */,
+				E046AB3D1A80F4BC0063AAB0 /* LogConfig.swift in Sources */,
+				338B977A1AA0733900AADE67 /* RMBT_ProgressView.swift in Sources */,
+				331927EA1A6FCE99004D88B6 /* RMBTPUTrafficView.swift in Sources */,
+				E046EDC21AC9330600EBB656 /* RMBTMapMeasurement.swift in Sources */,
+				334A0D381A80C4820091B983 /* RMBTTesterViewController.swift in Sources */,
+				E0776E961A3715F40076531B /* QOSTestResult.swift in Sources */,
+				E062BBBD1A32007100F94568 /* QOSTracerouteTest.swift in Sources */,
+				E0776E911A370F490076531B /* QOSTCPTestExecutor.swift in Sources */,
+				B14959821A8944A60085539C /* GCDTimer.swift in Sources */,
+				C7978FD717F1D07100BF986C /* RMBTConnectivityTracker.m in Sources */,
+				E09E153B1A402703001DE175 /* RMBTTrafficCounter.m in Sources */,
+				E039551B1AA080F400369A08 /* UDPStreamSender.swift in Sources */,
+				E0DADD991A8C986000E0E094 /* CountDownLatch.swift in Sources */,
+				E062BBB31A31FEEF00F94568 /* QOSNonTransparentProxyTest.swift in Sources */,
+				E09FE04A1A444B37000089C5 /* NonOptionalGCDAsyncSocketDelegate.swift in Sources */,
+				E0207CE419CC24510045824C /* RMBTLocationTracker.swift in Sources */,
+				E0776E8D1A3704CD0076531B /* QOSControlConnection.swift in Sources */,
+				E05750341A43093F00C6D558 /* QOSTestExecutorClass.swift in Sources */,
+				E082C9DD1A8A4332002E0691 /* SharedKeychain.swift in Sources */,
+				E062B5861AAEF6F1005234FB /* DNSRecordClass.swift in Sources */,
+				331927E01A6E882C004D88B6 /* RMBTPUHardwareView.swift in Sources */,
+				B19AFDB01ACAFBFA000E51DF /* RMBTThroughputHistory.swift in Sources */,
+				E09E153F1A403D76001DE175 /* RMBTCPUMonitor.m in Sources */,
+				E0E8566019D1B68500BAAFD2 /* RMBTHistoryResultViewController.swift in Sources */,
+				E062BBAB1A31FB5A00F94568 /* QOSTestType.swift in Sources */,
+				3356DE721A8A0E44007A0CC9 /* RMBTQoS_Menu_TableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B108FE861AD7F663007582F9 /* RMBTPUTrafficView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B108FE871AD7F663007582F9 /* Base */,
+				B108FE891AD7F684007582F9 /* de */,
+				B108FE8A1AD7F687007582F9 /* sl */,
+			);
+			name = RMBTPUTrafficView.xib;
+			sourceTree = "<group>";
+		};
+		E05AD2361AD5214900867B4E /* RMBTPUHardwareView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05AD2351AD5214900867B4E /* Base */,
+			);
+			name = RMBTPUHardwareView.xib;
+			sourceTree = "<group>";
+		};
+		E069559E1AC3F292000A2C8D /* terms_conditions_long.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E069559D1AC3F292000A2C8D /* Base */,
+				E06955EE1AC3F55B000A2C8D /* de */,
+				E06955F31AC3FA3A000A2C8D /* sl */,
+			);
+			name = terms_conditions_long.html;
+			sourceTree = "<group>";
+		};
+		E06955A61AC3F2D3000A2C8D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06955A51AC3F2D3000A2C8D /* Base */,
+				E06955EF1AC3F55B000A2C8D /* de */,
+				E06955F41AC3FA3A000A2C8D /* sl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E06955CA1AC3F3CD000A2C8D /* RMBTPULocationView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06955CB1AC3F3CD000A2C8D /* Base */,
+				E06955EB1AC3F55B000A2C8D /* de */,
+				E06955F01AC3FA3A000A2C8D /* sl */,
+			);
+			name = RMBTPULocationView.xib;
+			sourceTree = "<group>";
+		};
+		E06AADD51B836F1A00C96FDD /* publish_personal_data_text.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E06AADD61B836F1A00C96FDD /* Base */,
+				E06AADD81B836FA100C96FDD /* de */,
+				E06AADD91B836FA300C96FDD /* sl */,
+			);
+			name = publish_personal_data_text.html;
+			sourceTree = "<group>";
+		};
+		E08E9D5C1B8377180093C40C /* iPhoneMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E08E9D5D1B8377180093C40C /* Base */,
+				E0E382EB1B8387C7009D7931 /* de */,
+				E0E382EC1B8387CA009D7931 /* sl */,
+			);
+			name = iPhoneMain.storyboard;
+			sourceTree = "<group>";
+		};
+		E0FA5AAD1AE7A293009DE36A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0FA5AAC1AE7A293009DE36A /* Base */,
+				E0FA5AB01AE7A2E1009DE36A /* de */,
+				E0FA5AB11AE7A2E4009DE36A /* sl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7DE149C173E8F610079477A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C0EFE3176CD18F003758AA /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7DE149F173E8F610079477A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C0EFE3176CD18F003758AA /* Debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/RMBT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/RMBT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/RMBT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E02FAB7D1A91DB7D000C75C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02FAB811A91DB8F000C75C1 /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E02FAB7E1A91DB7D000C75C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02FAB811A91DB8F000C75C1 /* Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/RMBT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/RMBT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/RMBT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E02FAB851A9209A8000C75C1 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02FAB831A92098E000C75C1 /* Beta.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Beta;
+		};
+		E02FAB861A9209A8000C75C1 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02FAB831A92098E000C75C1 /* Beta.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Vendor\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/RMBT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/RMBT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/RMBT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Beta;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7DE1473173E8F610079477A /* Build configuration list for PBXProject "RMBT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DE149C173E8F610079477A /* Debug */,
+				E02FAB851A9209A8000C75C1 /* Beta */,
+				E02FAB7D1A91DB7D000C75C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7DE149E173E8F610079477A /* Build configuration list for PBXNativeTarget "RMBT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7DE149F173E8F610079477A /* Debug */,
+				E02FAB861A9209A8000C75C1 /* Beta */,
+				E02FAB7E1A91DB7D000C75C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7DE1470173E8F610079477A /* Project object */;
+}

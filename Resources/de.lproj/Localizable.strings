@@ -1,0 +1,304 @@
+/* network type description cellular */
+"connectivity.cellular" = "Mobil";
+
+/* network type description not connected */
+"connectivity.not-connected" = "Nicht verbunden";
+
+/* network type description wifi */
+"connectivity.wifi" = "WLAN";
+
+/* Alert view button
+ Sync alert button
+ Sync dialog button */
+"general.alertview.cancel" = "abbrechen";
+
+/* Alert view button */
+"general.alertview.close" = "schließen";
+
+/* Alert view button
+ News alert view button */
+"general.alertview.dismiss" = "schließen";
+
+/* Alert view title */
+"general.alertview.error" = "Fehler";
+
+/* alertview ok button
+ Display code alert button */
+"general.alertview.ok" = "OK";
+
+/* Sync alert title
+ Sync success button */
+"general.alertview.reload" = "aktualisieren";
+
+/* Sync success alert title */
+"general.alertview.success" = "Erfolg";
+
+/* Filter section title */
+"history.filter.device" = "Gerät";
+
+/* Filter section title */
+"history.filter.networktype" = "Netzwerktyp";
+
+/* Name of a test */
+"history.qos.detail.test" = "Test";
+
+/* Details */
+"history.qos.headline.details" = "DETAILS";
+
+/* Tests */
+"history.qos.headline.tests" = "TESTS";
+
+/* Details options */
+"history.result.headline.details" = "Details";
+
+/* Map options */
+"history.result.headline.map" = "Karte";
+
+/* History result section title */
+"history.result.headline.measurement" = "Messung";
+
+/* History result section detail */
+"history.result.headline.network" = "Netzwerk";
+
+/* QoS options */
+"history.result.headline.qos" = "Network Services Tests";
+
+/* History result map accuracy */
+"history.result.map.accuracy" = "Genauigkeit";
+
+/* History result map invalid coordinates */
+"history.result.map.invalid-coordinates" = "ungültige Koordinaten";
+
+/* History result map latitude */
+"history.result.map.latitude" = "Längengrad";
+
+/* History result map result */
+"history.result.map.longitude" = "Breitengrad";
+
+/* History result map result */
+"history.result.map.result" = "Ergebnis (Karte)";
+
+/* History result map show */
+"history.result.map.show" = "Karte anzeigen";
+
+/* History result more details */
+"history.result.more-details" = "Mehr Details";
+
+/* Details */
+"history.result.qos.details" = "DETAILS";
+
+/* Description */
+"history.result.qos.details.description" = "BESCHREIBUNG";
+
+/* Test failed */
+"history.result.qos.details.failed" = "FEHLGESCHLAGEN";
+
+/* Test succeeded */
+"history.result.qos.details.succeeded" = "ERFOLGREICH";
+
+/* History result qos results */
+"history.result.qos.results" = "Ergebnisse";
+
+/* History result qos results detail */
+"history.result.qos.results-detail" = "Details der Ergebnisse";
+
+/* History result time */
+"history.result.time" = "Zeitpunkt";
+
+/* Display code alert title */
+"history.sync.code-text" = "Sync Code";
+
+/* Display code alert button */
+"history.sync.code.copy" = "Code kopieren";
+
+/* Sync dialog button */
+"history.sync.code.enter" = "Code eingeben";
+
+/* Sync alert title */
+"history.sync.code.enter-text" = "Sync-Code eingeben:";
+
+/* Sync dialog button */
+"history.sync.code.request" = "Code anfordern";
+
+/* Sync intro text */
+"history.sync.merge" = "Um den Verlauf von anderen Geräten anzuzeigen, muss der Sync-Code auf einem Gerät angefragt und auf dem anderen Gerät eingegeben werden";
+
+/* Sync success alert msg */
+"history.sync.success-message" = "Verlauf-Synchronisierung war erfolgreich.";
+
+/* Sync alert button */
+"history.sync.sync" = "Sync";
+
+/* History index filter button */
+"history.uibar.filter" = "Filter";
+
+/* History index sync button */
+"history.uibar.sync" = "Sync";
+
+/* Google Maps Legal Notice navigation title */
+"info.google-maps.legal-notice" = "Lizenzbedingungen";
+
+/* Intro location question message */
+"intro.location.question.message" = "Um den Standort zu verwenden muss diese Funktion in den Einstellungen aktiviert werden!";
+
+/* Intro location question title */
+"intro.location.question.title" = "Standort verwenden";
+
+/* network type description unknown
+ unknown wifi or operator name */
+"intro.network.connection.name-unknown" = "Unbekannt";
+
+/* Test intro screen title when there's no connectivity */
+"intro.network.connection.unavailable" = "Keine Internetverbindung verfügbar";
+
+/* Intro popup hardware app RAM */
+"intro.popup.hardware.app-ram" = "App RAM";
+
+/* Intro popup hardware CPU */
+"intro.popup.hardware.cpu" = "CPU";
+
+/* Intro popup hardware system RAM */
+"intro.popup.hardware.system-ram" = "System RAM";
+
+/* Intro popup hardware usage */
+"intro.popup.hardware.usage" = "Hardware Auslastung";
+
+/* Intro popup ip connection in progress */
+"intro.popup.ip.connection-progress" = "Verbindungsversuch...";
+
+/* Intro popup ip connections */
+"intro.popup.ip.connections" = "IP Verbindungen";
+
+/* Intro popup ip no ip */
+"intro.popup.ip.no-ip-text" = "n/a";
+
+/* Intro popup ipv4 external */
+"intro.popup.ip.v4-external" = "externe IPv4";
+
+/* Intro popup ipv4 internal */
+"intro.popup.ip.v4-internal" = "interne IPv4";
+
+/* Intro popup ipv6 external */
+"intro.popup.ip.v6-external" = "externe IPv6";
+
+/* Intro popup ipv6 internal */
+"intro.popup.ip.v6-internal" = "interne IPv6";
+
+/* Intro popup location */
+"intro.popup.location" = "Standort";
+
+/* Intro popup location accuracy */
+"intro.popup.location.accuracy" = "Genaugkeit";
+
+/* Intro popup location age */
+"intro.popup.location.age" = "Alter";
+
+/* Intro popup location altitude */
+"intro.popup.location.altitude" = "Höhe";
+
+/* Intro popup location position */
+"intro.popup.location.position" = "Position";
+
+/* Intro popup location */
+"intro.popup.location.source" = "Quelle";
+
+/* Intro popup traffic background */
+"intro.popup.traffic.background" = "Hintergrund Traffic";
+
+/* Intro popup traffic download */
+"intro.popup.traffic.download" = "Download traffic";
+
+/* Intro popup traffic upload */
+"intro.popup.traffic.upload" = "Upload traffic";
+
+/* Map callout measurement */
+"map.callout.measurement" = "Messung";
+
+/* Map callout network */
+"map.callout.network" = "Netzwerk";
+
+/* Table section header title */
+"map.options.filter.overlay" = "Overlay";
+
+/* Map overlay description */
+"map.options.overlay.auto" = "Auto";
+
+/* Map overlay description */
+"map.options.overlay.heatmap" = "Heatmap";
+
+/* Map overlay description */
+"map.options.overlay.municipality" = "Gemeinden";
+
+/* Map overlay description */
+"map.options.overlay.points" = "Punkte";
+
+/* Map overlay description */
+"map.options.overlay.regions" = "Regionen";
+
+/* Map overlay description */
+"map.options.overlay.settlements" = "Siedlungen";
+
+/* Map overlay description */
+"map.options.overlay.shapes" = "Flächen";
+
+/* Map overlay description */
+"map.options.overlay.whitespots" = "White spots";
+
+/* Alert view test intro message */
+"test.intro-message" = "Using AKOS Test Net on mobile devices may cause consumption of large data amount. By using it on 3G technology the usual data amount would be between 5 and 10 MB. On 4G data amount may exceed 100 MB";
+
+/* Alert view button */
+"test.ok-button" = "OK";
+
+/* Alert view button */
+//"test.abort-test-button" = "Test abbrechen";
+"test.abort-test-button" = "abbrechen";
+
+/* Alert view message */
+"test.abort-test-question" = "Soll der laufende Test wirklich abgebrochen werden?";
+
+/* Alert view message */
+"test.aborted-message" = "Der Test wurde abgebrochen, da die App in den Hintergrund gelegt wurde. Der Test kann nur ausgeführt werden die App im Fordergrund läuft.";
+
+/* Alert view title */
+"test.aborted-title" = "Test wurde abgebrochen";
+
+/* Alert view message */
+"test.connection.could-not-connect" = "Verbindung zum Test-Server konnte nicht hergestellt werden.";
+
+/* Alert view title */
+"test.connection.error" = "Verbindungsfehler";
+
+/* Alert view message */
+"test.connection.lost" = "Die Verbindung zum Test-Server wurde verloren. Der aktuelle Test wurde abgebrochen.";
+
+/* Abort test alert button */
+"test.continue-button" = "weiter";
+
+/* Test download phase */
+"test.phase.download" = "Download";
+
+/* Test init phase */
+"test.phase.init" = "Init";
+
+/* Test ping phase */
+"test.phase.ping" = "Ping";
+
+/* Test upload phase */
+"test.phase.upload" = "Upload";
+
+/* Alert view message */
+"test.qos.failed" = "Network Services Test konnte nicht ausgeführt werden.";
+
+/* Alert view button */
+"test.repeat" = "Test wiederholen";
+
+/* Alert view message */
+"test.result.not-submitted" = "Der Test wurde abgeschlossen, aber die Ergebnisse konnten nicht zum Server übermittelt werden.";
+
+/* Speed suffix */
+"test.speed.unit" = "Mbps";
+
+/* Alert view button */
+"test.try-again" = "Nochmal versuchen";
+

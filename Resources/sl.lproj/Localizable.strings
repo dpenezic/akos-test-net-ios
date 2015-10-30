@@ -1,0 +1,303 @@
+/* network type description cellular */
+"connectivity.cellular" = "Mobilna";
+
+/* network type description not connected */
+"connectivity.not-connected" = "Ni povezave";
+
+/* network type description wifi */
+"connectivity.wifi" = "Wi-Fi";
+
+/* (No Commment) */
+"general.alertview.cancel" = "Prekliči";
+
+/* Alert view button */
+"general.alertview.close" = "Zapri";
+
+/* (No Commment) */
+"general.alertview.dismiss" = "Zavrzi";
+
+/* Alert view title */
+"general.alertview.error" = "Napaka";
+
+/* (No Commment) */
+"general.alertview.ok" = "V redu";
+
+/* Sync success button */
+"general.alertview.reload" = "Ponovno naloži";
+
+/* Sync success alert title */
+"general.alertview.success" = "Uspešno";
+
+/* Filter section title */
+"history.filter.device" = "Naprava";
+
+/* Filter section title */
+"history.filter.networktype" = "Tip omrežja";
+
+/* Name of a test */
+"history.qos.detail.test" = "Test";
+
+/* Details */
+"history.qos.headline.details" = "PODROBNOSTI";
+
+/* Tests */
+"history.qos.headline.tests" = "TESTI";
+
+/* Details options */
+"history.result.headline.details" = "Podrobnosti";
+
+/* Map options */
+"history.result.headline.map" = "Zemljevid";
+
+/* History result section title */
+"history.result.headline.measurement" = "Meritev";
+
+/* History result section detail */
+"history.result.headline.network" = "Omrežje";
+
+/* QoS options */
+"history.result.headline.qos" = "Test omrežnih storitev";
+
+/* History result map accuracy */
+"history.result.map.accuracy" = "Natančnost";
+
+/* History result map invalid coordinates */
+"history.result.map.invalid-coordinates" = "Neveljavne koordinate";
+
+/* History result map latitude */
+"history.result.map.latitude" = "Širina";
+
+/* History result map result */
+"history.result.map.longitude" = "Dolžina";
+
+/* History result map result */
+"history.result.map.result" = "Prikaži rezultat"; /* na zemljevidu*/
+
+/* History result map show */
+"history.result.map.show" = "Prikaži zemljevid";
+
+/* History result more details */
+"history.result.more-details" = "Več podrobnosti";
+
+/* Details */
+"history.result.qos.details" = "PODROBNOSTI";
+
+/* Description */
+"history.result.qos.details.description" = "OPIS";
+
+/* Test failed */
+"history.result.qos.details.failed" = "NEUSPEŠNO";
+
+/* Test succeeded */
+"history.result.qos.details.succeeded" = "USPEŠNO";
+
+/* History result qos results */
+"history.result.qos.results" = "Rezultati";
+
+/* History result qos results detail */
+"history.result.qos.results-detail" = "Podrobnosti rezultatov";
+
+/* History result time */
+"history.result.time" = "Čas";
+
+/* Display code alert title */
+"history.sync.code-text" = "Koda za sinhronizacijo";
+
+/* Display code alert button */
+"history.sync.code.copy" = "Kopiraj kodo";
+
+/* Sync dialog button */
+"history.sync.code.enter" = "Vnesi kodo";
+
+/* Sync alert title */
+"history.sync.code.enter-text" = "Vnesi kodo za sinhronizacijo:";
+
+/* Sync dialog button */
+"history.sync.code.request" = "Zaprosi za kodo";
+
+/* Sync intro text */
+"history.sync.merge" = "Za združevanje zgodovine z dveh različnih naprav, skopirajte kodo za sinhronizacijo iz ene naprave in jo vnesite v drugo napravo";
+
+/* Sync success alert msg */
+"history.sync.success-message" = "Zgodovina je bila uspešno sinhronizirana.";
+
+/* Sync alert button */
+"history.sync.sync" = "Sinhroniziraj";
+
+/* History index filter button */
+"history.uibar.filter" = "Filter";
+
+/* History index sync button */
+"history.uibar.sync" = "Sinhroniziraj";
+
+/* Google Maps Legal Notice navigation title */
+"info.google-maps.legal-notice" = "Pravno obvestilo";
+
+/* Intro location question message */
+"intro.location.question.message" = "Storitev lociranja morate najprej omogočiti v nastavitvah!";
+
+/* Intro location question title */
+"intro.location.question.title" = "Uporaba lokacije";
+
+/* network type description unknown
+ unknown wifi or operator name */
+"intro.network.connection.name-unknown" = "Neznana";
+
+/* Test intro screen title when there's no connectivity */
+"intro.network.connection.unavailable" = "Omrežna povezava ni na voljo";
+
+/* Intro popup hardware app RAM */
+//"intro.popup.hardware.app-ram" = "Notranji pomnilnik mobilne aplikacije";
+"intro.popup.hardware.app-ram" = "RAM mobilne aplikacije";
+
+/* Intro popup hardware CPU */
+"intro.popup.hardware.cpu" = "CPU";
+
+/* Intro popup hardware system RAM */
+//"intro.popup.hardware.system-ram" = "Notranji pomnilnik sistema";
+"intro.popup.hardware.system-ram" = "RAM sistema";
+
+/* Intro popup hardware usage */
+"intro.popup.hardware.usage" = "Zasedenost strojne opreme";
+
+/* Intro popup ip connection in progress */
+"intro.popup.ip.connection-progress" = "Vzpostavljanje povezave";
+
+/* Intro popup ip connections */
+"intro.popup.ip.connections" = "IP povezave";
+
+/* Intro popup ip no ip */
+"intro.popup.ip.no-ip-text" = "Ni na voljo";
+
+/* Intro popup ipv4 external */
+"intro.popup.ip.v4-external" = "zunanji IPv4";
+
+/* Intro popup ipv4 internal */
+"intro.popup.ip.v4-internal" = "notranji IPv4";
+
+/* Intro popup ipv6 external */
+"intro.popup.ip.v6-external" = "zunanji IPv6";
+
+/* Intro popup ipv6 internal */
+"intro.popup.ip.v6-internal" = "notranji IPv6";
+
+/* Intro popup location */
+"intro.popup.location" = "Lokacija";
+
+/* Intro popup location accuracy */
+"intro.popup.location.accuracy" = "Natančnost";
+
+/* Intro popup location age */
+"intro.popup.location.age" = "Starost";
+
+/* Intro popup location altitude */
+"intro.popup.location.altitude" = "Višina";
+
+/* Intro popup location position */
+"intro.popup.location.position" = "Položaj";
+
+/* Intro popup location */
+"intro.popup.location.source" = "Vir";
+
+/* Intro popup traffic background */
+"intro.popup.traffic.background" = "Promet v ozadju";
+
+/* Intro popup traffic download */
+//"intro.popup.traffic.download" = "Promet v pritočni smeri";
+"intro.popup.traffic.download" = "Promet Download";
+
+/* Intro popup traffic upload */
+//"intro.popup.traffic.upload" = "Promet v odtočni smeri";
+"intro.popup.traffic.upload" = "Promet Upload";
+
+/* Map callout measurement */
+"map.callout.measurement" = "Meritev";
+
+/* Map callout network */
+"map.callout.network" = "Omrežje";
+
+/* Table section header title */
+"map.options.filter.overlay" = "Prekrivanje";
+
+/* Map overlay description */
+"map.options.overlay.auto" = "Samodejno";
+
+/* Map overlay description */
+"map.options.overlay.heatmap" = "Toplotni zemljevid";
+
+/* Map overlay description */
+"map.options.overlay.municipality" = "Občina";
+
+/* Map overlay description */
+"map.options.overlay.points" = "Točke";
+
+/* Map overlay description */
+"map.options.overlay.regions" = "Regija";
+
+/* Map overlay description */
+"map.options.overlay.settlements" = "Naselje";
+
+/* Map overlay description */
+"map.options.overlay.shapes" = "Oblike";
+
+/* Map overlay description */
+"map.options.overlay.whitespots" = "White spots";
+
+/* Alert view test intro message */
+"test.intro-message" = "Uporaba AKOS Test Neta na mobilnih napravah je lahko povezana z večjo količino porabe podatkov. Pri uporabi testa na tehnologiji 3G znaša običajna poraba podatkov v okviru enega testa med 5 in 10 MB, na tehnologiji 4G pa lahko preseže tudi 100 MB";
+
+/* Alert view button */
+"test.ok-button" = "OK";
+
+/* Alert view button */
+"test.abort-test-button" = "Prekini test";
+
+/* Alert view message */
+"test.abort-test-question" = "Ali želite zares prekiniti test?";
+
+/* Alert view message */
+"test.aborted-message" = "Test je bil prekinjen, ker je mobilna aplikacija začela teči v ozadju. Test lahko opravite le, če mobilna aplikacija teče v ospredju.";
+
+/* Alert view title */
+"test.aborted-title" = "Test prekinjen";
+
+/* Alert view message */
+"test.connection.could-not-connect" = "Vzpostavitev povezave s testnim strežnikom ni uspela";
+
+/* Alert view title */
+"test.connection.error" = "Napaka pri povezovanju";
+
+/* Alert view message */
+"test.connection.lost" = "Povezava s testnim strežnikom je bila izgubljena. Test prekinjen.";
+
+/* Abort test alert button */
+"test.continue-button" = "Nadaljuj";
+
+/* Test download phase */
+//"test.phase.download" = "Test pritočne povezave";
+"test.phase.download" = "Download";
+
+/* Test init phase */
+"test.phase.init" = "Inicializacija";
+
+/* Test ping phase */
+"test.phase.ping" = "Ping";
+
+/* Test upload phase */
+//"test.phase.upload" = "Test odtočne povezave";
+"test.phase.upload" = "Upload";
+
+/* Alert view message */
+"test.qos.failed" = "Test omrežnih storitev ni bil uspešno opravljen.";
+
+/* Alert view button */
+"test.repeat" = "Ponovi test";
+
+/* Alert view message */
+"test.result.not-submitted" = "Test je bil zaključen, vendar rezultatov ni bilo mogoče poslati na testni strežnik.";
+
+/* Speed suffix */
+"test.speed.unit" = "Mbps";
+
+/* Alert view button */
+"test.try-again" = "Poskusite znova";

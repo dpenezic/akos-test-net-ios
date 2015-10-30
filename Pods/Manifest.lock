@@ -1,0 +1,83 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ARChromeActivity (1.0.2)
+  - BCGenieEffect (1.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - CocoaAsyncSocket (7.4.2)
+  - GCNetworkReachability (1.3.2)
+  - Google-Maps-iOS-SDK (1.9.2)
+  - KINWebBrowser (1.1.0):
+    - ARChromeActivity (= 1.0.2)
+    - TUSafariActivity (= 1.0.2)
+  - KLCPopup (1.0)
+  - libextobjc/EXTKeyPathCoding (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - SVProgressHUD (1.1.3)
+  - SwiftTryCatch (0.0.1)
+  - TUSafariActivity (1.0.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.4)
+  - BCGenieEffect (~> 1.1.0)
+  - BlocksKit (~> 2.2.5)
+  - CocoaAsyncSocket (~> 7.4.2)
+  - GCNetworkReachability (~> 1.3.2)
+  - Google-Maps-iOS-SDK (~> 1.9.2)
+  - KINWebBrowser (~> 1.1.0)
+  - KLCPopup (~> 1.0)
+  - libextobjc/EXTKeyPathCoding (~> 0.4.1)
+  - SVProgressHUD (~> 1.1.3)
+  - SwiftTryCatch
+  - TUSafariActivity (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  ARChromeActivity: 6488aedc8dd0624b103ea8caf6218e52692aaf77
+  BCGenieEffect: 3efb235716f121caa6b26040bfd0ae11e1bae4b4
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  CocoaAsyncSocket: f5783bdedd232d91b89769bc4b5a1580aed518ad
+  GCNetworkReachability: 2a7dd53d362220326b3e38df68c91b3ef84418d1
+  Google-Maps-iOS-SDK: 7f89cc1edb3ca239a410e5bc83cd1e060db3a289
+  KINWebBrowser: 6aeaf6f34a99ed31a49eebf5457581718f08961e
+  KLCPopup: 76c5a19227977f1e53d85236f9ef42257c168d98
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SwiftTryCatch: fb6d2b34abe48efd69578dac919293a44f95b481
+  TUSafariActivity: 32e3e5dc9123e5533a42d41e1c3246d12911a4a2
+
+COCOAPODS: 0.38.2

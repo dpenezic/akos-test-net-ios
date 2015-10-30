@@ -1,0 +1,313 @@
+
+/* Class = "UITextField"; placeholder = "100"; ObjectID = "09W-iO-Vi1"; */
+"09W-iO-Vi1.placeholder" = "100";
+
+/* Class = "UILabel"; text = "AKOS TEST NET"; ObjectID = "0WC-ez-x3z"; */
+"0WC-ez-x3z.text" = "AKOS TEST NET";
+
+/* Class = "UILabel"; text = "Server"; ObjectID = "1WZ-XB-6G1"; */
+"1WZ-XB-6G1.text" = "Strežnik";
+
+/* Class = "UITableViewSection"; headerTitle = "Custom Map Server"; ObjectID = "2Si-Yj-00z"; */
+"2Si-Yj-00z.headerTitle" = "Strežnik z zemljevidi po meri";
+
+/* Class = "UIView"; accessibilityLabel = "Map View Container"; ObjectID = "2gg-YZ-6sP"; */
+"2gg-YZ-6sP.accessibilityLabel" = "Vsebnik za zemljevid";
+
+/* Class = "UILabel"; text = "Help"; ObjectID = "32y-09-cDX"; */
+"32y-09-cDX.text" = "Pomoč";
+
+/* Class = "UILabel"; text = "Website"; ObjectID = "34z-Gg-Uf0"; */
+"34z-Gg-Uf0.text" = "Spletna stran";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "4e2-Iv-XUt"; */
+"4e2-Iv-XUt.text" = "Omogočen";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "6yW-ra-Dgw"; */
+"6yW-ra-Dgw.text" = "Omogočen";
+
+/* Class = "UIView"; accessibilityLabel = "Map Options Overlay View"; ObjectID = "7uQ-MO-oLc"; */
+"7uQ-MO-oLc.accessibilityLabel" = "Zemljevid Možnosti Prekrivanje Pogled";
+
+/* Class = "UIViewController"; title = "Statistics"; ObjectID = "8TU-z5-rfT"; */
+"8TU-z5-rfT.title" = "Statistika";
+
+/* Class = "UILabel"; text = "NST"; ObjectID = "8rx-x7-pKG"; */
+"8rx-x7-pKG.text" = "NST";
+
+/* Class = "UINavigationItem"; title = "QoS Tests"; ObjectID = "B3b-3D-bWC"; */
+"B3b-3D-bWC.title" = "Testi omrežnih storitev";
+
+/* Class = "UITextField"; placeholder = "hostname.example.org"; ObjectID = "Bdp-8f-f1G"; */
+"Bdp-8f-f1G.placeholder" = "hostname.example.org";
+
+/* Class = "UINavigationItem"; title = "Details"; ObjectID = "Cwb-EJ-VzB"; */
+"Cwb-EJ-VzB.title" = "Podrobnosti";
+
+/* Class = "UINavigationItem"; title = "Map"; ObjectID = "D2v-Ce-kFE"; */
+"D2v-Ce-kFE.title" = "Zemljevid";
+
+/* Class = "UILabel"; text = "E-Mail"; ObjectID = "DNI-tu-v8L"; */
+"DNI-tu-v8L.text" = "Elektronski naslov";
+
+/* Class = "UILabel"; text = "Max tests"; ObjectID = "EAN-LP-wiY"; */
+"EAN-LP-wiY.text" = "Največje št. testov";
+
+/* Class = "UITextField"; placeholder = "80"; ObjectID = "FXp-Vy-dw6"; */
+"FXp-Vy-dw6.placeholder" = "80";
+
+/* Class = "UITableViewSection"; headerTitle = "General"; ObjectID = "Fwg-ko-KwK"; */
+"Fwg-ko-KwK.headerTitle" = "Splošno";
+
+/* Class = "UILabel"; text = "Google Maps Legal Notice"; ObjectID = "GYM-Wl-vh4"; */
+"GYM-Wl-vh4.text" = "Pravno obvestilo storitve Google Zemljevidi";
+
+/* Class = "UINavigationItem"; title = "Test Result"; ObjectID = "GcA-Sk-2Fg"; */
+"GcA-Sk-2Fg.title" = "Rezultat testa";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "GuU-xe-daX"; */
+"GuU-xe-daX.title" = "Nastavitve";
+
+/* Class = "UILabel"; text = "Result"; ObjectID = "GvM-qT-dqk"; */
+"GvM-qT-dqk.text" = "Rezultat";
+
+/* Class = "UIViewController"; title = "Help"; ObjectID = "HAQ-9D-mnM"; */
+"HAQ-9D-mnM.title" = "Pomoč";
+
+/* Class = "UILabel"; text = "Mbps"; ObjectID = "IAG-iG-EU9"; */
+"IAG-iG-EU9.text" = "Mbps";
+
+/* Class = "UINavigationItem"; title = "Results"; ObjectID = "K4a-b5-mcW"; */
+"K4a-b5-mcW.title" = "Rezultati";
+
+/* Class = "UISegmentedControl"; LJ1-3n-ny7.segmentTitles[0] = "Standard"; ObjectID = "LJ1-3n-ny7"; */
+"LJ1-3n-ny7.segmentTitles[0]" = "Običajni";
+
+/* Class = "UISegmentedControl"; LJ1-3n-ny7.segmentTitles[1] = "Satellite"; ObjectID = "LJ1-3n-ny7"; */
+"LJ1-3n-ny7.segmentTitles[1]" = "Satelit";
+
+/* Class = "UISegmentedControl"; LJ1-3n-ny7.segmentTitles[2] = "Hybrid"; ObjectID = "LJ1-3n-ny7"; */
+"LJ1-3n-ny7.segmentTitles[2]" = "Hibridni";
+
+/* Class = "UINavigationItem"; title = "Detail"; ObjectID = "LTd-di-6eJ"; */
+"LTd-di-6eJ.title" = "Podrobnosti";
+
+/* Class = "UIBarButtonItem"; title = "Show All"; ObjectID = "M5N-qN-ttd"; */
+"M5N-qN-ttd.title" = "Prikaži vse";
+
+/* Class = "UILabel"; text = "Map"; ObjectID = "McQ-dN-3M5"; */
+"McQ-dN-3M5.text" = "Zemljevid";
+
+/* Class = "UILabel"; text = "_Jul 15 18:39"; ObjectID = "Msb-06-zpO"; */
+"Msb-06-zpO.text" = "_Jul 15 18:39";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "NcE-oO-JJp"; */
+"NcE-oO-JJp.text" = "Podrobnosti";
+
+/* Class = "UILabel"; text = "Client UUID"; ObjectID = "Osc-Rf-bb3"; */
+"Osc-Rf-bb3.text" = "UUID odjemalca";
+
+/* Class = "UILabel"; text = "Port"; ObjectID = "P2U-kC-Tt5"; */
+"P2U-kC-Tt5.text" = "Vrata";
+
+/* Class = "UIView"; accessibilityLabel = "Test Result View"; ObjectID = "Q63-CJ-tNX"; */
+"Q63-CJ-tNX.accessibilityLabel" = "Ogled rezultata testa";
+
+/* Class = "UILabel"; text = "10.6"; ObjectID = "RC9-Nw-ZQw"; */
+"RC9-Nw-ZQw.text" = "10.6";
+
+/* Class = "UILabel"; text = "Server"; ObjectID = "RVf-LT-Ucb"; */
+"RVf-LT-Ucb.text" = "Strežnik";
+
+/* Class = "UITableViewSection"; headerTitle = "Custom Control Server"; ObjectID = "SY1-HS-Zla"; */
+"SY1-HS-Zla.headerTitle" = "Kontrolni strežnik po meri";
+
+/* Class = "UILabel"; text = "No tests have been performed from this device yet"; ObjectID = "SZw-43-1F3"; */
+"SZw-43-1F3.text" = "Na tej napravi še niste opravili nobenega testa";
+
+/* Class = "UILabel"; text = "I agree with SPECURE’s Privacy Policy and Terms of Use for the SPECURE NetTest."; ObjectID = "fKr-Do-h1I"; */
+"fKr-Do-h1I.text" = "Strinjam se s politiko zasebnosti AKOS in Pogoji uporabe AKOS Test Net.";
+
+/* Class = "UIBarButtonItem"; title = "Agree"; ObjectID = "bQO-qS-lkm"; */
+"bQO-qS-lkm.title" = "Strinjam se";
+
+/* Class = "UIBarButtonItem"; title = "Decline"; ObjectID = "CfN-bb-rSm"; */
+"CfN-bb-rSm.title" = "Zavrni";
+
+/* Class = "UINavigationItem"; title = "Publish personal data"; ObjectID = "eIe-WO-zuN"; */
+"eIe-WO-zuN.title" = "Objava osebnih podatkov";
+
+/* Class = "UILabel"; text = "Publish personal data"; ObjectID = "ITC-cN-71M"; */
+"ITC-cN-71M.text" = "Objava osebnih podatkov";
+
+/* Class = "UILabel"; text = "Publish personal data"; ObjectID = "LIx-gi-N3C"; */
+"LIx-gi-N3C.text" = "Objava osebnih podatkov";
+
+/* Class = "UIBarButtonItem"; title = "Continue"; ObjectID = "PJY-H6-liA"; */
+"PJY-H6-liA.title" = "Nadaljuj";
+
+/* Class = "UILabel"; text = "Specure GmbH"; ObjectID = "UJq-gy-8hP"; */
+"UJq-gy-8hP.text" = "Specure GmbH";
+
+/* Class = "UIButton"; normalTitle = "clear active filters"; ObjectID = "UMS-KS-Jkz"; */
+"UMS-KS-Jkz.normalTitle" = "počisti aktivne filtre";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Usz-RC-BWX"; */
+"Usz-RC-BWX.text" = "Naziv";
+
+/* Class = "UILabel"; text = "Skip QOS tests"; ObjectID = "VVq-Tn-PTE"; */
+"VVq-Tn-PTE.text" = "Preskoči teste omrežnih storitev";
+
+/* Class = "UILabel"; text = "Home"; ObjectID = "Vkf-xy-0sf"; */
+//"Vkf-xy-0sf.text" = "Domov";
+"Vkf-xy-0sf.text" = "Home";
+
+/* Class = "UILabel"; text = "Use SSL"; ObjectID = "W3l-ab-Hh3"; */
+"W3l-ab-Hh3.text" = "Uporabi SSL";
+
+/* Class = "UINavigationItem"; title = "Filter"; ObjectID = "WQj-gr-9bs"; */
+"WQj-gr-9bs.title" = "Filter";
+
+/* Class = "UILabel"; text = "180"; ObjectID = "WXk-kS-PBf"; */
+"WXk-kS-PBf.text" = "180";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "WfN-aN-6uY"; */
+"WfN-aN-6uY.text" = "Naziv";
+
+/* Class = "UILabel"; text = "Privacy Policy and Terms of Use"; ObjectID = "WxM-O8-kUr"; */
+"WxM-O8-kUr.text" = "Politika zasebnosti in pogoji uporabe";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "XBo-Ye-Vfv"; */
+"XBo-Ye-Vfv.text" = "Podrobnosti";
+
+/* Class = "UILabel"; text = "History"; ObjectID = "XSG-Co-NU1"; */
+"XSG-Co-NU1.text" = "Zgodovina";
+
+/* Class = "UITableViewSection"; footerTitle = "Log messages will be sent to the selected control server."; ObjectID = "Xi2-14-9ut"; */
+"Xi2-14-9ut.footerTitle" = "Sporočila iz dnevnika bodo poslana na izbran kontrolni strežnik.";
+
+/* Class = "UITableViewSection"; headerTitle = "Logging"; ObjectID = "Xi2-14-9ut"; */
+"Xi2-14-9ut.headerTitle" = "Logging";
+
+/* Class = "UILabel"; text = "Port"; ObjectID = "ZUW-uI-Ys8"; */
+"ZUW-uI-Ys8.text" = "Vrata";
+
+/* Class = "UINavigationItem"; title = "Privacy Policy and Terms of Use"; ObjectID = "mq4-E2-Em2"; */
+"mq4-E2-Em2.title" = "Politika zasebnosti in pogoji uporabe";
+
+/* Class = "UINavigationItem"; title = "Filter"; ObjectID = "a2u-nk-a5o"; */
+"a2u-nk-a5o.title" = "Filter";
+
+/* Class = "UILabel"; text = "IPv4 Only"; ObjectID = "a3R-np-Qeo"; */
+"a3R-np-Qeo.text" = "Samo IPv4";
+
+/* Class = "UILabel"; text = "Min delay"; ObjectID = "a7R-Ye-U6h"; */
+"a7R-Ye-U6h.text" = "minimalno zamudo";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "aQk-OX-a1T"; */
+"aQk-OX-a1T.normalTitle" = "START";
+
+/* Class = "UINavigationItem"; title = "History"; ObjectID = "aVO-kl-t2n"; */
+"aVO-kl-t2n.title" = "Zgodovina";
+
+/* Class = "UINavigationItem"; title = "Statistics"; ObjectID = "abW-PV-D7h"; */
+"abW-PV-D7h.title" = "Statistika";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "ahd-PM-8Rd"; */
+"ahd-PM-8Rd.text" = "Različica";
+
+/* Class = "UILabel"; text = "Statistics"; ObjectID = "bFc-eS-31w"; */
+"bFc-eS-31w.text" = "Statistika";
+
+/* Class = "UIView"; accessibilityLabel = "History View"; ObjectID = "cQU-zi-Xdf"; */
+"cQU-zi-Xdf.accessibilityLabel" = "Ogled zgodovine";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "cp1-at-CBh"; */
+"cp1-at-CBh.text" = "Naslov";
+
+/* Class = "UILabel"; text = "https://nettest.specure.com/"; ObjectID = "dc5-fA-0Qi"; */
+"dc5-fA-0Qi.text" = "https://www.akostest.net/";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "fdU-dn-pS1"; */
+"fdU-dn-pS1.title" = "Nastavitve";
+
+/* Class = "UILabel"; text = "Developed by"; ObjectID = "h6Q-yF-riO"; */
+"h6Q-yF-riO.text" = "Razvil";
+
+/* Class = "UITextField"; placeholder = "hostname.example.org"; ObjectID = "hZw-UQ-793"; */
+"hZw-UQ-793.placeholder" = "hostname.example.org";
+
+/* Class = "UILabel"; text = "       "; ObjectID = "iBT-mK-Rd1"; */
+"iBT-mK-Rd1.text" = "       ";
+
+/* Class = "UILabel"; text = "© Specure GmbH"; ObjectID = "iQr-Yb-saR"; */
+"iQr-Yb-saR.text" = "© Specure GmbH";
+
+/* Class = "UILabel"; text = "_Network details"; ObjectID = "iZS-B7-siI"; */
+"iZS-B7-siI.text" = "_Network details";
+
+/* Class = "UILabel"; text = "Enabled"; ObjectID = "jBa-h9-IVj"; */
+"jBa-h9-IVj.text" = "Enabled";
+
+/* Class = "UILabel"; text = "_Specure - Nettest"; ObjectID = "jNc-UH-nVe"; */
+"jNc-UH-nVe.text" = "_Specure - Nettest";
+
+/* Class = "UILabel"; text = "nettest@specure.com"; ObjectID = "jUo-vF-i75"; */
+"jUo-vF-i75.text" = "akostest@akos-rs.si";
+
+/* Class = "UITableViewSection"; headerTitle = "Loop Mode"; ObjectID = "kSG-cl-sbx"; */
+"kSG-cl-sbx.headerTitle" = "Ponavljanje";
+
+/* Class = "UILabel"; text = "WLAN"; ObjectID = "kn0-NO-feB"; */
+"kn0-NO-feB.text" = "Wi-Fi";
+
+/* Class = "UITextField"; placeholder = "80"; ObjectID = "mXa-NW-CZq"; */
+"mXa-NW-CZq.placeholder" = "80";
+
+/* Class = "UILabel"; text = "Current Settings"; ObjectID = "mhK-ok-Hkw"; */
+"mhK-ok-Hkw.text" = "Trenutne nastavitve";
+
+/* Class = "UILabel"; text = "Test Counter"; ObjectID = "o8C-e9-YbK"; */
+"o8C-e9-YbK.text" = "Števec testov";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "oah-iu-cgb"; */
+"oah-iu-cgb.text" = "-";
+
+/* Class = "UILabel"; text = "_Network"; ObjectID = "ohe-ep-mbp"; */
+"ohe-ep-mbp.text" = "_Network";
+
+/* Class = "UILabel"; text = "Use SSL"; ObjectID = "p2p-V4-zjV"; */
+"p2p-V4-zjV.text" = "Uporabi SSL";
+
+/* Class = "UILabel"; text = "_iPhone 3GS"; ObjectID = "pCw-De-yX0"; */
+"pCw-De-yX0.text" = "_iPhone 3GS";
+
+/* Class = "UILabel"; text = "10.6"; ObjectID = "rjb-RL-Ntw"; */
+"rjb-RL-Ntw.text" = "10.6";
+
+/* Class = "UILabel"; text = "_operator name"; ObjectID = "tUv-sY-7Oc"; */
+"tUv-sY-7Oc.text" = "_operator name";
+
+/* Class = "UILabel"; text = "No tests can be displayed using your current filter settings"; ObjectID = "tia-WZ-QKu"; */
+"tia-WZ-QKu.text" = "Za trenutno izbrane filtre ni mogoče prikazati nobenih rezultatov";
+
+/* Class = "UILabel"; text = "Loop Mode"; ObjectID = "vLe-0D-gi5"; */
+"vLe-0D-gi5.text" = "Ponavljanje";
+
+/* Class = "UITextView"; text = "Test parameters"; ObjectID = "vbT-sE-dar"; */
+"vbT-sE-dar.text" = "Parametri testa";
+
+/* Class = "UILabel"; text = "Loading"; ObjectID = "vbt-D1-MOv"; */
+"vbt-D1-MOv.text" = "Nalaganje";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "vtn-dm-2ho"; */
+"vtn-dm-2ho.text" = "-";
+
+/* Class = "UINavigationItem"; title = "Info"; ObjectID = "xhU-qy-bbN"; */
+"xhU-qy-bbN.title" = "Informacije";
+
+/* Class = "UITextField"; placeholder = "5"; ObjectID = "yMJ-iG-G66"; */
+"yMJ-iG-G66.placeholder" = "5";
+
+/* Class = "UILabel"; text = "IPv6 Only"; ObjectID = "yiR-4S-Ha8"; */
+"yiR-4S-Ha8.text" = "Samo IPv6";
